@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,67 +9,57 @@
 <meta property="og:title" content="Md. Mahmudul Hasan — Academic & Research Portfolio">
 <meta property="og:description" content="PhD Researcher in Systems Engineering at Boston University · Assistant Professor (On Leave), EEE, RUET. Control, optimization & virtual inertia for renewable power systems.">
 <meta property="og:type" content="profile">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23cc0000'/><stop offset='100%' stop-color='%232563eb'/></linearGradient></defs><rect width='64' height='64' rx='16' fill='url(%23g)'/><text x='32' y='42' font-family='Georgia,serif' font-size='27' font-weight='700' fill='white' text-anchor='middle'>MH</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%239E1B32'/><text x='32' y='43' font-family='Georgia,serif' font-size='28' font-weight='600' fill='%23FAF8F5' text-anchor='middle'>MH</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Md. Mahmudul Hasan","jobTitle":"PhD Researcher; Assistant Professor (On Leave)","email":"mailto:mmhasan@bu.edu","affiliation":[{"@type":"CollegeOrUniversity","name":"Boston University"},{"@type":"CollegeOrUniversity","name":"Rajshahi University of Engineering & Technology"}],"alumniOf":"Rajshahi University of Engineering & Technology","url":"https://mmhasan-bu.github.io/","sameAs":["https://eee.ruet.ac.bd/mahmud/","https://scholar.google.com/citations?user=PUPQdH4AAAAJ","https://linkedin.com/in/mahmud-eee-ruet"],"knowsAbout":["Metaheuristic optimization","Disturbance observer-based control","Virtual inertia emulation","Microgrids","Renewable energy systems","Safety-critical control"]}
 </script>
 <style>
-/* ==================== EYE-CATCHING THEME VARIABLES ==================== */
-:root, :root[data-theme="dark"] {
-  --bg: #070b14;
-  --bg-mesh:
-    radial-gradient(at 12% 8%, rgba(225, 29, 72, 0.16) 0px, transparent 48%),
-    radial-gradient(at 88% 12%, rgba(56, 189, 248, 0.15) 0px, transparent 50%),
-    radial-gradient(at 50% 85%, rgba(99, 102, 241, 0.12) 0px, transparent 55%);
-  --grid-line: rgba(148, 163, 184, 0.05);
-  --surface: rgba(15, 23, 42, 0.78);
-  --surface-solid: #0f172a;
-  --surface-2: rgba(30, 41, 59, 0.65);
-  --text: #f1f5f9;
-  --muted: #94a3b8;
-  --line: rgba(148, 163, 184, 0.15);
-  --line-strong: rgba(56, 189, 248, 0.4);
-  --primary: #38bdf8;       /* Cyber Sky */
-  --secondary: #f43f5e;     /* BU Crimson Rose */
-  --tertiary: #f59e0b;      /* Amber Gold */
-  --indigo: #818cf8;
-  --grad-brand: linear-gradient(135deg, #f43f5e 0%, #8b5cf6 50%, #0ea5e9 100%);
-  --grad-text: linear-gradient(95deg, #ffffff 0%, #bae6fd 55%, #fda4af 100%);
-  --chip: rgba(56, 189, 248, 0.1);
-  --chip-text: #bae6fd;
-  --shadow: 0 10px 30px -5px rgba(2, 6, 23, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.04);
-  --shadow-hover: 0 18px 40px -8px rgba(14, 165, 233, 0.22), 0 0 0 1px rgba(56, 189, 248, 0.35);
-  --nav-bg: rgba(7, 11, 20, 0.82);
+/* ==================== EDITORIAL AESTHETIC PALETTE ==================== */
+:root, :root[data-theme="light"] {
+  --bg: #FAF8F5;              /* Warm Alabaster Paper */
+  --bg-subtle: #F3EFEA;       /* Soft Stone Wash */
+  --surface: #FFFFFF;         /* Crisp Ivory Card */
+  --surface-hover: #FCFBF9;
+  --text: #1C1917;            /* Deep Espresso Ink */
+  --text-secondary: #44403C;  /* Warm Charcoal */
+  --muted: #78716C;           /* Stone Grey */
+  --line: #E7E2DA;            /* Fine Editorial Hairline */
+  --line-strong: #D1C9BC;
+  --accent: #9E1B32;          /* Classical BU Crimson */
+  --accent-soft: #F9EBEE;     /* Pale Rose Tint */
+  --sage: #2E5A44;            /* Botanical Forest Sage */
+  --sage-soft: #EAF1ED;
+  --ochre: #8C6239;           /* Warm Bronze Ochre */
+  --ochre-soft: #F5EFE6;
+  --nav-bg: rgba(250, 248, 245, 0.88);
+  --shadow-sm: 0 1px 2px rgba(28, 25, 23, 0.03), 0 4px 12px rgba(28, 25, 23, 0.035);
+  --shadow-md: 0 4px 20px -2px rgba(28, 25, 23, 0.06), 0 2px 6px -1px rgba(28, 25, 23, 0.03);
+  --shadow-hover: 0 12px 28px -6px rgba(28, 25, 23, 0.09), 0 4px 10px -2px rgba(28, 25, 23, 0.04);
 }
 
-:root[data-theme="light"] {
-  --bg: #f8fafc;
-  --bg-mesh:
-    radial-gradient(at 10% 5%, rgba(225, 29, 72, 0.09) 0px, transparent 48%),
-    radial-gradient(at 90% 10%, rgba(14, 165, 233, 0.11) 0px, transparent 50%),
-    radial-gradient(at 50% 90%, rgba(99, 102, 241, 0.08) 0px, transparent 55%);
-  --grid-line: rgba(15, 23, 42, 0.035);
-  --surface: rgba(255, 255, 255, 0.9);
-  --surface-solid: #ffffff;
-  --surface-2: #f1f5f9;
-  --text: #0f172a;
-  --muted: #475569;
-  --line: #e2e8f0;
-  --line-strong: rgba(2, 132, 199, 0.45);
-  --primary: #0284c7;
-  --secondary: #cc0000;
-  --tertiary: #b45309;
-  --indigo: #4f46e5;
-  --grad-brand: linear-gradient(135deg, #cc0000 0%, #4f46e5 55%, #0284c7 100%);
-  --grad-text: linear-gradient(95deg, #0f172a 0%, #0369a1 55%, #be123c 100%);
-  --chip: #e0f2fe;
-  --chip-text: #0369a1;
-  --shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.04);
-  --shadow-hover: 0 14px 32px -6px rgba(2, 132, 199, 0.15), 0 0 0 1px rgba(2, 132, 199, 0.3);
-  --nav-bg: rgba(255, 255, 255, 0.88);
+:root[data-theme="dark"] {
+  --bg: #131316;              /* Warm Obsidian */
+  --bg-subtle: #1A1A1E;       /* Muted Charcoal Surface */
+  --surface: #1C1C21;         /* Elevated Slate Card */
+  --surface-hover: #222228;
+  --text: #ECE8E1;            /* Soft Parchment */
+  --text-secondary: #C7C2B8;
+  --muted: #8E8980;
+  --line: #2B2B32;
+  --line-strong: #3E3E48;
+  --accent: #E06C75;          /* Muted Terracotta Rose */
+  --accent-soft: rgba(224, 108, 117, 0.13);
+  --sage: #7BAF92;            /* Muted Sage Leaf */
+  --sage-soft: rgba(123, 175, 146, 0.13);
+  --ochre: #D4B27A;           /* Antique Gold */
+  --ochre-soft: rgba(212, 178, 122, 0.13);
+  --nav-bg: rgba(19, 19, 22, 0.88);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.28);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-hover: 0 14px 32px rgba(0, 0, 0, 0.5);
 }
 
 * { box-sizing: border-box; }
@@ -78,152 +68,154 @@ html { scroll-behavior: smooth; scroll-padding-top: 84px; }
 body {
   margin: 0;
   background-color: var(--bg);
-  background-image:
-    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px),
-    var(--bg-mesh);
-  background-size: 38px 38px, 38px 38px, 100% 100%;
-  background-attachment: fixed;
+  background-image: radial-gradient(ellipse 90% 50% at 50% -10%, var(--accent-soft), transparent 70%);
+  background-repeat: no-repeat;
   color: var(--text);
-  font: 15.5px/1.68 "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  font: 400 15.5px/1.72 "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-a { color: var(--primary); text-decoration: none; transition: all 0.18s ease; }
-a:hover { color: var(--secondary); text-decoration: none; }
-h1, h2, h3, h4 { font-family: "Fraunces", Georgia, serif; line-height: 1.25; margin: 0; }
-.wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.18s ease, opacity 0.18s ease;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
-/* ==================== STICKY GLASS NAVIGATION ==================== */
+h1, h2, h3, h4 {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+  color: var(--text);
+  letter-spacing: -0.015em;
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ==================== MINIMALIST EDITORIAL HEADER ==================== */
 header.nav {
   position: sticky;
   top: 0;
   z-index: 100;
   background: var(--nav-bg);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
 }
 .nav .wrap {
   display: flex;
   align-items: center;
-  gap: 10px;
-  height: 68px;
+  gap: 12px;
+  height: 66px;
 }
 .brand {
-  font-family: "Fraunces", serif;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.18rem;
   color: var(--text);
   white-space: nowrap;
   display: flex;
   align-items: center;
   gap: 10px;
+  letter-spacing: -0.02em;
 }
-.brand-badge {
-  width: 34px;
-  height: 34px;
-  border-radius: 10px;
-  background: var(--grad-brand);
-  color: #fff;
-  font-size: 0.85rem;
-  font-weight: 800;
-  font-family: "Plus Jakarta Sans", sans-serif;
+.brand:hover { text-decoration: none; }
+.brand-monogram {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  background: var(--accent);
+  color: #FAF8F5;
+  font-family: "Newsreader", serif;
+  font-size: 0.92rem;
+  font-weight: 600;
   display: grid;
   place-items: center;
-  box-shadow: 0 4px 14px rgba(244, 63, 94, 0.35);
 }
 .nav ul {
   display: flex;
-  gap: 4px;
+  gap: 2px;
   list-style: none;
   margin: 0 0 0 auto;
-  padding: 4px;
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  padding: 0;
 }
 .nav ul a {
   display: block;
-  padding: 6px 12px;
+  padding: 6px 11px;
   color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 700;
-  border-radius: 999px;
-  letter-spacing: 0.02em;
-  transition: all 0.2s ease;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.18s ease;
   white-space: nowrap;
 }
 .nav ul a:hover {
   color: var(--text);
+  background: var(--bg-subtle);
+  text-decoration: none;
 }
 .nav ul a.active {
-  background: var(--grad-brand);
-  color: #ffffff;
-  box-shadow: 0 3px 12px rgba(244, 63, 94, 0.3);
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-weight: 600;
 }
 .icon-btn {
   border: 1px solid var(--line);
   background: var(--surface);
-  color: var(--text);
-  border-radius: 11px;
-  width: 38px;
-  height: 38px;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
   display: grid;
   place-items: center;
   cursor: pointer;
   flex: none;
-  transition: all 0.2s;
+  transition: all 0.18s ease;
 }
 .icon-btn:hover {
-  border-color: var(--primary);
-  transform: translateY(-1px);
+  border-color: var(--line-strong);
+  color: var(--text);
+  background: var(--bg-subtle);
 }
 .menu-btn { display: none; }
 
-/* ==================== MAIN GRID & SIDEBAR ==================== */
+/* ==================== TWO-COLUMN SCHOLARLY LAYOUT ==================== */
 .layout {
   display: grid;
-  grid-template-columns: 330px 1fr;
-  gap: 38px;
-  padding: 36px 0 80px;
+  grid-template-columns: 310px 1fr;
+  gap: 48px;
+  padding: 44px 0 84px;
 }
 aside.profile {
   align-self: start;
   position: sticky;
-  top: 92px;
+  top: 94px;
 }
 .card {
   background: var(--surface);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--line);
-  border-radius: 20px;
-  box-shadow: var(--shadow);
-  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
 }
 .profile .card {
-  padding: 30px 24px 24px;
+  padding: 32px 24px 26px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.profile .card::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 6px;
-  background: var(--grad-brand);
 }
 .avatar-wrap {
   position: relative;
-  width: 178px;
-  height: 178px;
-  margin: 4px auto 18px;
-  padding: 4px;
-  border-radius: 50%;
-  background: var(--grad-brand);
-  box-shadow: 0 12px 30px rgba(244, 63, 94, 0.25);
+  width: 164px;
+  height: 164px;
+  margin: 0 auto 20px;
 }
 .avatar {
   display: block;
@@ -232,104 +224,104 @@ aside.profile {
   object-fit: cover;
   object-position: 50% 28%;
   border-radius: 50%;
-  border: 4px solid var(--surface-solid);
-  background: var(--surface-solid);
-}
-.status-dot {
-  position: absolute;
-  bottom: 6px;
-  right: 4px;
-  background: var(--surface-solid);
-  padding: 4px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--text);
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-.status-dot::before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #10b981;
-  box-shadow: 0 0 8px #10b981;
+  border: 3px solid var(--surface);
+  box-shadow: 0 0 0 1px var(--line-strong), var(--shadow-md);
 }
 .profile h1 {
-  font-size: 1.52rem;
-  background: var(--grad-text);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 1.56rem;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
-.affil-badges {
+.profile-subtitle {
+  font-family: "Newsreader", Georgia, serif;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.96rem;
+  margin-bottom: 18px;
+}
+
+.affil-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 14px;
-}
-.affil-card {
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 10px 14px;
   text-align: left;
-  transition: border-color 0.2s;
 }
-.affil-card:hover { border-color: var(--primary); }
-.affil-card .r-title {
-  font-size: 0.83rem;
-  font-weight: 700;
-  color: var(--text);
+.affil-item {
+  padding: 11px 14px;
+  border-radius: 10px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+}
+.affil-item .r-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 6px;
 }
-.affil-card .r-dept { font-size: 0.77rem; color: var(--muted); margin-top: 2px; }
-.affil-card .r-org { font-size: 0.8rem; font-weight: 700; color: var(--primary); margin-top: 2px; }
-.mini-tag {
+.affil-item .r-role {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.affil-item .r-dept {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.affil-item .r-univ {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: 2px;
+}
+.badge-minimal {
+  font-family: "JetBrains Mono", monospace;
   font-size: 0.65rem;
-  font-weight: 800;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   padding: 2px 7px;
-  border-radius: 6px;
-  background: rgba(244, 63, 94, 0.16);
-  color: var(--secondary);
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--accent);
 }
-.mini-tag.gold {
-  background: rgba(245, 158, 11, 0.16);
-  color: var(--tertiary);
+.badge-minimal.muted {
+  background: var(--ochre-soft);
+  color: var(--ochre);
 }
 
 .contact {
   list-style: none;
-  padding: 14px 0 0;
-  margin: 16px 0 0;
+  padding: 16px 0 0;
+  margin: 18px 0 0;
   border-top: 1px solid var(--line);
   text-align: left;
-  font-size: 0.85rem;
+  font-size: 0.84rem;
 }
 .contact li {
   display: flex;
   gap: 10px;
   align-items: center;
-  padding: 5.5px 0;
-  word-break: break-word;
+  padding: 5px 0;
+  color: var(--text-secondary);
+}
+.contact li a {
+  color: var(--text-secondary);
+}
+.contact li a:hover {
+  color: var(--accent);
 }
 .contact svg {
   flex: none;
-  width: 16px;
-  height: 16px;
-  color: var(--primary);
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
 }
+
 .btns {
   display: flex;
   gap: 10px;
-  margin-top: 18px;
+  margin-top: 20px;
 }
 .btn {
   flex: 1;
@@ -337,34 +329,34 @@ aside.profile {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  padding: 10px 14px;
-  border-radius: 12px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  border: 1px solid var(--line);
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  border: 1px solid var(--line-strong);
   color: var(--text);
-  background: var(--surface-2);
-  transition: all 0.2s ease;
+  background: var(--surface);
+  transition: all 0.18s ease;
 }
 .btn.primary {
-  background: var(--grad-brand);
-  border-color: transparent;
-  color: #ffffff;
-  box-shadow: 0 6px 18px rgba(244, 63, 94, 0.3);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #FAF8F5;
 }
 .btn:hover {
-  transform: translateY(-2px);
-  border-color: var(--primary);
-  color: var(--text);
+  text-decoration: none;
+  border-color: var(--text);
+  background: var(--bg-subtle);
 }
 .btn.primary:hover {
-  color: #fff;
-  filter: brightness(1.1);
+  background: var(--accent);
+  opacity: 0.92;
+  color: #FAF8F5;
 }
 
-/* ==================== SECTIONS & HEADINGS ==================== */
+/* ==================== MAIN SECTIONS & TYPOGRAPHY ==================== */
 main section {
-  margin-bottom: 56px;
+  margin-bottom: 60px;
   scroll-margin-top: 86px;
 }
 .sec-head {
@@ -373,7 +365,7 @@ main section {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 22px;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--line);
   position: relative;
   flex-wrap: wrap;
@@ -382,134 +374,125 @@ main section {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px;
-  width: 84px;
-  height: 3px;
-  border-radius: 3px;
-  background: var(--grad-brand);
+  bottom: -1px;
+  width: 48px;
+  height: 2px;
+  background: var(--accent);
 }
 .sec-head h2 {
-  font-size: 1.68rem;
-  letter-spacing: -0.01em;
+  font-size: 1.72rem;
+  font-weight: 500;
 }
 .sec-head .count {
   font-family: "JetBrains Mono", monospace;
-  color: var(--primary);
-  font-size: 0.78rem;
-  font-weight: 600;
-  background: var(--chip);
-  padding: 4px 10px;
-  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
 }
 h3.sub {
-  font-size: 1.18rem;
-  margin: 32px 0 14px;
+  font-size: 1.22rem;
+  margin: 34px 0 14px;
   color: var(--text);
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
-.lead { font-size: 1.03rem; }
+.lead {
+  font-size: 1.04rem;
+  color: var(--text);
+}
 #about > p {
+  color: var(--text-secondary);
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
   margin: 0 0 14px;
 }
+#about > p strong {
+  color: var(--text);
+  font-weight: 600;
+}
 
-/* ==================== STATS COUNTER ==================== */
+/* ==================== REFINED EDITORIAL METRICS ==================== */
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 14px;
-  margin: 24px 0 30px;
+  margin: 26px 0 32px;
 }
 .stat {
   padding: 18px 14px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.stat::after {
-  content: "";
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--grad-brand);
-  opacity: 0.7;
+  background: var(--surface);
 }
 .stat:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
+  border-color: var(--line-strong);
+  box-shadow: var(--shadow-md);
 }
 .stat b {
   display: block;
-  font-family: "Fraunces", serif;
-  font-size: 2.15rem;
-  background: var(--grad-brand);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 1.1;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--accent);
+  line-height: 1.05;
 }
 .stat span {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.78rem;
+  font-weight: 500;
   color: var(--muted);
-  margin-top: 5px;
+  margin-top: 6px;
   display: block;
+  letter-spacing: 0.01em;
 }
 
-/* ==================== RESEARCH THRUST CARDS ==================== */
+/* ==================== RESEARCH THRUSTS (INKED SCHEMATICS) ==================== */
 .thrust-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 .thrust-card {
-  padding: 20px;
+  padding: 22px 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 .thrust-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-hover);
   border-color: var(--line-strong);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
 }
 .thrust-vis {
-  height: 112px;
-  border-radius: 14px;
-  background: var(--surface-2);
+  height: 108px;
+  border-radius: 9px;
+  background: var(--bg);
   border: 1px solid var(--line);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
 }
-.thrust-vis svg { width: 100%; height: 100%; max-width: 220px; }
+.thrust-vis svg { width: 100%; height: 100%; max-width: 215px; }
 .thrust-num {
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.72rem;
-  font-weight: 600;
+  font-size: 0.7rem;
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--primary);
 }
 .thrust-card h4 {
-  font-size: 1.06rem;
-  color: var(--text);
+  font-size: 1.12rem;
+  font-weight: 500;
   line-height: 1.32;
 }
 .thrust-card p {
   font-size: 0.86rem;
   color: var(--muted);
   margin: 0;
-  line-height: 1.58;
+  line-height: 1.6;
 }
 
-/* ==================== HIGHLIGHTS TIMELINE ==================== */
+/* ==================== CHRONOLOGICAL HIGHLIGHTS ==================== */
 .news-timeline {
-  padding: 20px 24px;
+  padding: 18px 24px;
   position: relative;
   list-style: none;
   margin: 0;
@@ -517,248 +500,249 @@ h3.sub {
 .news-timeline::before {
   content: "";
   position: absolute;
-  left: 122px;
+  left: 118px;
   top: 24px;
   bottom: 24px;
-  width: 2px;
-  background: var(--line);
+  width: 1px;
+  background: var(--line-strong);
 }
 .news-timeline li {
   display: grid;
-  grid-template-columns: 86px 30px 1fr;
+  grid-template-columns: 82px 28px 1fr;
   gap: 8px;
-  padding: 10px 0;
+  padding: 9px 0;
   align-items: baseline;
   font-size: 0.92rem;
+  color: var(--text-secondary);
 }
 .news-timeline time {
   font-family: "JetBrains Mono", monospace;
-  font-weight: 600;
-  font-size: 0.78rem;
-  color: var(--primary);
+  font-size: 0.76rem;
+  color: var(--muted);
   text-align: right;
 }
 .news-dot {
-  width: 11px;
-  height: 11px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: var(--surface-solid);
-  border: 2.5px solid var(--primary);
+  background: var(--surface);
+  border: 2px solid var(--muted);
   justify-self: center;
   position: relative;
   z-index: 2;
 }
 .news-timeline li:first-child .news-dot {
-  border-color: var(--secondary);
-  background: var(--secondary);
-  box-shadow: 0 0 0 4px rgba(244, 63, 94, 0.25);
+  border-color: var(--accent);
+  background: var(--accent);
 }
 .n-badge {
   display: inline-block;
-  font-size: 0.68rem;
-  font-weight: 800;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.66rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 2px 8px;
-  border-radius: 6px;
+  letter-spacing: 0.04em;
+  padding: 1px 7px;
+  border-radius: 4px;
   margin-right: 7px;
-  background: var(--chip);
-  color: var(--chip-text);
-  vertical-align: middle;
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--line);
 }
-.n-badge.bu { background: rgba(244, 63, 94, 0.16); color: var(--secondary); }
-.n-badge.pub { background: rgba(245, 158, 11, 0.16); color: var(--tertiary); }
+.n-badge.bu {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+}
+.n-badge.pub {
+  background: var(--sage-soft);
+  color: var(--sage);
+  border-color: transparent;
+}
 
-/* ==================== PUBLICATIONS & FILTER TOOLBAR ==================== */
+/* ==================== PUBLICATIONS & FILTER BAR ==================== */
 .toolbar {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .filter {
   border: 1px solid var(--line);
   background: var(--surface);
-  color: var(--muted);
-  padding: 8px 16px;
-  border-radius: 999px;
-  font: 700 0.82rem "Plus Jakarta Sans", sans-serif;
+  color: var(--text-secondary);
+  padding: 7px 14px;
+  border-radius: 8px;
+  font: 500 0.82rem "Plus Jakarta Sans", sans-serif;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.18s ease;
   display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 .filter span.f-num {
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.72rem;
-  padding: 1px 6px;
-  border-radius: 999px;
-  background: var(--surface-2);
-  color: var(--text);
+  font-size: 0.71rem;
+  color: var(--muted);
 }
 .filter:hover {
-  border-color: var(--primary);
+  border-color: var(--line-strong);
   color: var(--text);
-  transform: translateY(-1px);
+  background: var(--bg-subtle);
 }
 .filter.on {
-  background: var(--grad-brand);
-  border-color: transparent;
-  color: #ffffff;
-  box-shadow: 0 4px 14px rgba(244, 63, 94, 0.3);
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
 }
 .filter.on span.f-num {
-  background: rgba(255, 255, 255, 0.22);
-  color: #ffffff;
+  color: var(--bg);
+  opacity: 0.8;
 }
 .search {
   margin-left: auto;
   flex: 1;
   min-width: 210px;
-  max-width: 300px;
+  max-width: 290px;
   border: 1px solid var(--line);
   background: var(--surface);
   color: var(--text);
-  padding: 8px 16px;
-  border-radius: 999px;
+  padding: 7px 14px;
+  border-radius: 8px;
   font: inherit;
-  font-size: 0.85rem;
-  transition: all 0.2s;
+  font-size: 0.84rem;
+  transition: border-color 0.18s;
 }
 .search:focus {
   outline: none;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+  border-color: var(--accent);
 }
-.pub-group { margin-bottom: 24px; }
+.pub-group { margin-bottom: 28px; }
 .pub-group h3 {
   margin: 22px 0 12px;
-  color: var(--primary);
+  color: var(--muted);
   font-family: "JetBrains Mono", monospace;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
 }
 .pub {
   display: grid;
-  grid-template-columns: 52px 1fr;
+  grid-template-columns: 48px 1fr;
   gap: 12px;
   padding: 18px 20px;
-  margin-bottom: 12px;
-  border-left: 3px solid transparent;
+  margin-bottom: 10px;
 }
 .pub:hover {
   border-color: var(--line-strong);
-  border-left-color: var(--secondary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
+  box-shadow: var(--shadow-md);
 }
 .pub .idx {
   font-family: "JetBrains Mono", monospace;
-  font-weight: 600;
-  color: var(--primary);
-  font-size: 0.9rem;
+  font-size: 0.84rem;
+  color: var(--muted);
   padding-top: 2px;
 }
 .pub .title {
-  font-family: "Fraunces", serif;
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 500;
   color: var(--text);
   line-height: 1.38;
   display: inline-block;
 }
-.pub a.title:hover { color: var(--primary); }
+.pub a.title:hover {
+  color: var(--accent);
+}
 .pub .authors {
   font-size: 0.88rem;
   color: var(--muted);
-  margin: 5px 0 3px;
+  margin: 4px 0 2px;
 }
 .pub .authors b {
   color: var(--text);
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: var(--secondary);
+  text-decoration-color: var(--accent);
   text-underline-offset: 3px;
 }
 .pub .venue {
-  font-size: 0.88rem;
+  font-family: "Newsreader", Georgia, serif;
   font-style: italic;
-  color: var(--text);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
 }
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 7px;
-  margin-top: 11px;
+  gap: 6px;
+  margin-top: 10px;
 }
 .tag {
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 0.72rem;
-  font-weight: 700;
-  padding: 4px 10px;
-  border-radius: 7px;
-  background: var(--surface-2);
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 5px;
+  background: var(--bg-subtle);
   color: var(--muted);
   display: inline-flex;
   align-items: center;
   gap: 4px;
 }
-.tag.type-j { background: var(--chip); color: var(--chip-text); }
-.tag.type-c { background: rgba(245, 158, 11, 0.15); color: var(--tertiary); }
-.tag.type-r { background: rgba(244, 63, 94, 0.15); color: var(--secondary); }
+.tag.type-j { background: var(--sage-soft); color: var(--sage); }
+.tag.type-c { background: var(--ochre-soft); color: var(--ochre); }
+.tag.type-r { background: var(--accent-soft); color: var(--accent); }
 .tag.link, .tag.cite {
-  color: var(--text);
+  color: var(--text-secondary);
   border: 1px solid var(--line);
   background: var(--surface);
   cursor: pointer;
-  font-family: inherit;
-  transition: all 0.18s;
+  transition: all 0.15s;
 }
 .tag.link:hover, .tag.cite:hover {
-  border-color: var(--primary);
-  background: var(--chip);
-  color: var(--chip-text);
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
 }
 .empty {
   display: none;
   color: var(--muted);
   padding: 20px;
   text-align: center;
-  border: 1px dashed var(--line);
-  border-radius: 14px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 10px;
 }
 
-/* ==================== EXPERIENCE & EDUCATION TIMELINE ==================== */
-.timeline { position: relative; padding-left: 28px; }
+/* ==================== ACADEMIC TIMELINE ==================== */
+.timeline { position: relative; padding-left: 26px; }
 .timeline::before {
   content: "";
   position: absolute;
-  left: 8px;
+  left: 6px;
   top: 8px;
   bottom: 8px;
-  width: 2px;
-  background: var(--line);
+  width: 1px;
+  background: var(--line-strong);
 }
 .t-item { position: relative; padding: 20px 22px; margin-bottom: 14px; }
-.t-item:hover { border-color: var(--line-strong); box-shadow: var(--shadow-hover); }
+.t-item:hover { border-color: var(--line-strong); box-shadow: var(--shadow-md); }
 .t-item::before {
   content: "";
   position: absolute;
-  left: -26px;
-  top: 24px;
-  width: 12px;
-  height: 12px;
+  left: -24px;
+  top: 25px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
-  background: var(--surface-solid);
-  border: 3px solid var(--primary);
+  background: var(--surface);
+  border: 2px solid var(--muted);
 }
 .t-item.current::before {
-  border-color: var(--secondary);
-  background: var(--secondary);
-  box-shadow: 0 0 0 4px rgba(244, 63, 94, 0.22);
+  border-color: var(--accent);
+  background: var(--accent);
 }
 .t-top {
   display: flex;
@@ -767,39 +751,40 @@ h3.sub {
   flex-wrap: wrap;
   align-items: baseline;
 }
-.t-item h3 { font-size: 1.12rem; }
+.t-item h3 { font-size: 1.16rem; font-weight: 500; }
 .t-date {
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--primary);
+  font-size: 0.76rem;
+  color: var(--muted);
   white-space: nowrap;
 }
-.t-org { color: var(--muted); font-size: 0.9rem; margin: 3px 0 9px; font-weight: 500; }
-.t-item ul { margin: 8px 0 0; padding-left: 18px; font-size: 0.91rem; }
+.t-org { color: var(--text-secondary); font-size: 0.9rem; margin: 2px 0 8px; font-weight: 500; }
+.t-item ul { margin: 8px 0 0; padding-left: 18px; font-size: 0.9rem; color: var(--text-secondary); }
 .t-item li { margin: 4px 0; }
+.t-item li b { color: var(--text); }
 .pill {
   display: inline-block;
-  font-size: 0.73rem;
-  font-weight: 700;
-  background: var(--chip);
-  color: var(--chip-text);
-  padding: 3px 10px;
-  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--sage-soft);
+  color: var(--sage);
+  padding: 2px 9px;
+  border-radius: 5px;
   margin-right: 6px;
 }
-.pill.gold { background: rgba(245, 158, 11, 0.16); color: var(--tertiary); }
+.pill.gold { background: var(--ochre-soft); color: var(--ochre); }
+.pill.crimson { background: var(--accent-soft); color: var(--accent); }
 
 /* ==================== GRIDS, SUPERVISION, SKILLS & AWARDS ==================== */
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .box { padding: 20px 22px; }
 .box:hover { border-color: var(--line-strong); }
-.box h3 { font-size: 1.06rem; margin-bottom: 10px; }
-.box p { margin: 4px 0; font-size: 0.91rem; }
-.kv { display: grid; grid-template-columns: 135px 1fr; gap: 7px 12px; font-size: 0.9rem; }
-.kv dt { color: var(--muted); font-weight: 600; }
-.kv dd { margin: 0; }
+.box h3 { font-size: 1.12rem; margin-bottom: 10px; }
+.box p { margin: 4px 0; font-size: 0.9rem; color: var(--text-secondary); }
+.kv { display: grid; grid-template-columns: 135px 1fr; gap: 7px 12px; font-size: 0.89rem; }
+.kv dt { color: var(--muted); font-weight: 500; }
+.kv dd { margin: 0; color: var(--text-secondary); }
 ul.clean, ol.clean { list-style: none; margin: 0; padding: 0; }
 
 .thesis { padding: 6px 22px; }
@@ -807,21 +792,22 @@ ul.clean, ol.clean { list-style: none; margin: 0; padding: 0; }
   padding: 13px 0;
   border-bottom: 1px solid var(--line);
   display: grid;
-  grid-template-columns: 60px 1fr;
+  grid-template-columns: 56px 1fr;
   gap: 12px;
-  font-size: 0.92rem;
+  font-size: 0.91rem;
 }
 .thesis li:last-child { border: 0; }
 .thesis .yr {
   font-family: "JetBrains Mono", monospace;
-  font-weight: 600;
-  color: var(--primary);
+  font-size: 0.8rem;
+  color: var(--accent);
+  padding-top: 2px;
 }
-.thesis .st { display: block; color: var(--muted); font-size: 0.84rem; margin-top: 2px; }
+.thesis .st { display: block; color: var(--muted); font-size: 0.83rem; margin-top: 2px; }
 
 .skills .box {
   display: grid;
-  grid-template-columns: 195px 1fr;
+  grid-template-columns: 190px 1fr;
   gap: 14px;
   align-items: center;
   border-bottom: 1px solid var(--line);
@@ -829,82 +815,72 @@ ul.clean, ol.clean { list-style: none; margin: 0; padding: 0; }
 }
 .skills .box:last-child { border: 0; }
 .skills .lbl {
-  font-weight: 700;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.88rem;
   color: var(--text);
   display: flex;
   align-items: center;
   gap: 9px;
 }
-.skills .lbl svg { width: 17px; height: 17px; color: var(--primary); flex: none; }
-.chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.skills .lbl svg { width: 16px; height: 16px; color: var(--accent); flex: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chips span {
   font-size: 0.8rem;
-  font-weight: 600;
-  padding: 5px 12px;
-  border-radius: 999px;
-  background: var(--surface-2);
+  font-weight: 500;
+  padding: 4px 11px;
+  border-radius: 6px;
+  background: var(--bg);
   border: 1px solid var(--line);
-  color: var(--text);
-  transition: all 0.18s;
+  color: var(--text-secondary);
+  transition: all 0.15s;
 }
 .chips span:hover {
-  border-color: var(--primary);
-  background: var(--chip);
-  color: var(--chip-text);
-  transform: translateY(-1px);
+  border-color: var(--line-strong);
+  color: var(--text);
 }
 
 .svc li {
-  padding: 9px 0 9px 22px;
+  padding: 9px 0 9px 18px;
   position: relative;
   border-bottom: 1px solid var(--line);
-  font-size: 0.91rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
 }
 .svc li:last-child { border: 0; }
+.svc li b { color: var(--text); }
 .svc li::before {
   content: "";
   position: absolute;
-  left: 3px;
-  top: 17px;
-  width: 7px;
-  height: 7px;
-  border-radius: 2px;
-  background: var(--secondary);
-  transform: rotate(45deg);
+  left: 2px;
+  top: 18px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
 .award-card {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  position: relative;
-  overflow: hidden;
+  gap: 6px;
+  border-top: 2px solid var(--accent);
 }
-.award-card::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 4px;
-  background: var(--grad-brand);
-}
-.award-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
 .award-yr {
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.74rem;
-  font-weight: 600;
-  color: var(--primary);
+  font-size: 0.72rem;
+  color: var(--muted);
   text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
-.award-card h3 { font-size: 1.03rem; }
-.award-card p { font-size: 0.86rem; color: var(--muted); margin: 0; }
+.award-card h3 { font-size: 1.06rem; }
+.award-card p { font-size: 0.85rem; color: var(--muted); margin: 0; }
 
 footer {
   border-top: 1px solid var(--line);
   padding: 28px 0;
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.83rem;
 }
 footer .wrap {
   display: flex;
@@ -918,50 +894,50 @@ footer .wrap {
   bottom: 24px;
   left: 50%;
   transform: translateX(-50%) translateY(20px);
-  background: var(--grad-brand);
-  color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 999px;
-  font-size: 0.86rem;
-  font-weight: 700;
+  background: var(--text);
+  color: var(--bg);
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 500;
   opacity: 0;
-  transition: 0.25s;
+  transition: 0.22s ease;
   pointer-events: none;
   z-index: 200;
-  box-shadow: 0 10px 25px rgba(244, 63, 94, 0.4);
+  box-shadow: var(--shadow-md);
 }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
 /* ==================== RESPONSIVE BREAKPOINTS ==================== */
-@media (max-width: 1060px) {
-  .layout { grid-template-columns: 1fr; gap: 32px; }
+@media (max-width: 1040px) {
+  .layout { grid-template-columns: 1fr; gap: 36px; }
   aside.profile { position: static; }
-  .profile .card { max-width: 720px; margin: 0 auto; }
-  .affil-badges { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .profile .card { max-width: 680px; margin: 0 auto; }
+  .affil-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .contact { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 18px; }
   .thrust-grid, .grid3 { grid-template-columns: 1fr; }
   .menu-btn { display: grid; }
   .nav ul {
     display: none;
     position: absolute;
-    top: 68px;
+    top: 66px;
     left: 16px;
     right: 16px;
     flex-direction: column;
-    background: var(--surface-solid);
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    padding: 12px;
-    box-shadow: var(--shadow);
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: var(--shadow-hover);
   }
   .nav ul.open { display: flex; }
   .nav .wrap { position: relative; }
   .nav .spacer { margin-left: auto; }
 }
 @media (max-width: 640px) {
-  .wrap { padding: 0 16px; }
+  .wrap { padding: 0 18px; }
   .stats { grid-template-columns: repeat(2, 1fr); }
-  .grid2, .affil-badges, .contact { grid-template-columns: 1fr; }
+  .grid2, .affil-list, .contact { grid-template-columns: 1fr; }
   .skills .box { grid-template-columns: 1fr; gap: 8px; }
   .news-timeline::before { display: none; }
   .news-timeline li { grid-template-columns: 1fr; gap: 4px; border-bottom: 1px dashed var(--line); padding: 10px 0; }
@@ -970,7 +946,7 @@ footer .wrap {
   .news-dot { display: none; }
   .pub { grid-template-columns: 1fr; gap: 6px; }
   .search { max-width: none; margin-left: 0; width: 100%; }
-  .sec-head h2 { font-size: 1.4rem; }
+  .sec-head h2 { font-size: 1.45rem; }
   .kv { grid-template-columns: 1fr; }
   .kv dt { margin-top: 6px; }
 }
@@ -981,7 +957,7 @@ footer .wrap {
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="#top">
-      <span class="brand-badge">MH</span>
+      <span class="brand-monogram">MH</span>
       <span>Md. Mahmudul Hasan</span>
     </a>
     <span class="spacer"></span>
@@ -997,8 +973,8 @@ footer .wrap {
       <li><a href="#awards">Awards</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle color theme" title="Switch Dark / Light Theme">
-      <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle color theme" title="Toggle light / dark reading mode">
+      <svg id="themeIcon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     </button>
     <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -1012,57 +988,63 @@ footer .wrap {
   <aside class="profile">
     <div class="card">
       <div class="avatar-wrap">
-        <img class="avatar" src="MMH_CP.png" alt="Portrait of Md. Mahmudul Hasan" width="178" height="178">
-        <span class="status-dot" title="Active PhD Researcher at Boston University">BU · Systems Eng.</span>
+        <img class="avatar" src="MMH_CP.png" alt="Portrait of Md. Mahmudul Hasan" width="164" height="164">
       </div>
       <h1>Md. Mahmudul Hasan</h1>
+      <div class="profile-subtitle">Control Theory · Optimization · Microgrids</div>
 
-      <div class="affil-badges">
-        <div class="affil-card">
-          <div class="r-title"><span>Ph.D. Researcher</span><span class="mini-tag">Current</span></div>
+      <div class="affil-list">
+        <div class="affil-item">
+          <div class="r-top">
+            <span class="r-role">Ph.D. Researcher</span>
+            <span class="badge-minimal">Boston Univ.</span>
+          </div>
           <div class="r-dept">Division of Systems Engineering</div>
-          <div class="r-org">Boston University, USA</div>
+          <div class="r-univ">Boston University, USA</div>
         </div>
-        <div class="affil-card">
-          <div class="r-title"><span>Assistant Professor</span><span class="mini-tag gold">On Leave</span></div>
+        <div class="affil-item">
+          <div class="r-top">
+            <span class="r-role">Assistant Professor</span>
+            <span class="badge-minimal muted">On Leave</span>
+          </div>
           <div class="r-dept">Dept. of Electrical &amp; Electronic Eng.</div>
-          <div class="r-org">RUET, Bangladesh</div>
+          <div class="r-univ">RUET, Bangladesh</div>
         </div>
       </div>
 
       <ul class="contact">
         <li>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
           <a href="https://share.google/6fGh1uKAbP4NV47Xx" target="_blank" rel="noopener">Boston, MA 02215, USA</a>
         </li>
         <li>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
           <a href="mailto:mmhasan@bu.edu">mmhasan@bu.edu</a>
         </li>
         <li>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
           <a href="mailto:mahmud@eee.ruet.ac.bd">mahmud@eee.ruet.ac.bd</a>
         </li>
         <li>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
           <a href="https://eee.ruet.ac.bd/mahmud/" target="_blank" rel="noopener">eee.ruet.ac.bd/mahmud</a>
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.8 3.9C5.9 10.9 8.7 9 12 9s6.1 1.9 7.2 4.4L24 9.5z"/></svg>
-          <a href="https://scholar.google.com/citations?hl=en&amp;user=PUPQdH4AAAAJ" target="_blank" rel="noopener">Google Scholar Profile</a>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=PUPQdH4AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
         </li>
         <li>
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1a3.8 3.8 0 0 1 3.4-1.9c3.6 0 4.3 2.4 4.3 5.5v6.3zM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
-          <a href="https://linkedin.com/in/mahmud-eee-ruet" target="_blank" rel="noopener">LinkedIn · mahmud-eee-ruet</a>
+          <a href="https://linkedin.com/in/mahmud-eee-ruet" target="_blank" rel="noopener">LinkedIn Profile</a>
         </li>
       </ul>
 
       <div class="btns">
         <a class="btn primary" href="CV_MdMahmudulHasan.pdf" target="_blank" rel="noopener">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-          CV (PDF)
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Curriculum Vitae
         </a>
-        <a class="btn" href="mailto:mmhasan@bu.edu">Email Me</a>
+        <a class="btn" href="mailto:mmhasan@bu.edu">Email</a>
       </div>
     </div>
   </aside>
@@ -1076,8 +1058,8 @@ footer .wrap {
         <h2>About</h2>
         <span class="count">Systems &amp; Control Engineering</span>
       </div>
-      <p class="lead">I am a <strong>Ph.D. student in Systems Engineering at Boston University</strong> and an <strong>Assistant Professor (on leave)</strong> in the Department of Electrical &amp; Electronic Engineering at <strong>Rajshahi University of Engineering &amp; Technology (RUET)</strong>, Bangladesh. My research sits at the intersection of <strong>control theory, mathematical optimization, and power systems</strong>—developing robust, intelligent controllers that keep converter-dominated microgrids and hybrid renewable energy systems dynamically stable.</p>
-      <p>I earned my M.Sc. (CGPA 3.92/4.00) and B.Sc. (CGPA 3.89/4.00, ranked 2nd in a class of 120) in Electrical &amp; Electronic Engineering from RUET. My research appears in leading journals including the <em>International Journal of Electrical Power &amp; Energy Systems</em>, <em>Applied Soft Computing</em>, <em>Energy Conversion and Management: X</em>, and <em>IET Renewable Power Generation</em>, and I serve as an active peer reviewer for Elsevier and IEEE venues.</p>
+      <p class="lead">I am a <strong>Ph.D. student in Systems Engineering at Boston University</strong> and an <strong>Assistant Professor (on leave)</strong> in the Department of Electrical &amp; Electronic Engineering at <strong>Rajshahi University of Engineering &amp; Technology (RUET)</strong>, Bangladesh. My research lies at the intersection of <strong>control theory, mathematical optimization, and power systems</strong>—developing robust, intelligent controllers that preserve stability in converter-dominated microgrids and hybrid renewable energy networks.</p>
+      <p>I completed my M.Sc. (CGPA 3.92/4.00) and B.Sc. (CGPA 3.89/4.00, ranked 2nd in a class of 120) in Electrical &amp; Electronic Engineering at RUET. My work has been published in journals such as the <em>International Journal of Electrical Power &amp; Energy Systems</em>, <em>Applied Soft Computing</em>, <em>Energy Conversion and Management: X</em>, and <em>IET Renewable Power Generation</em>, and I serve as a regular peer reviewer for Elsevier and IEEE publications.</p>
 
       <div class="stats">
         <div class="card stat"><b>8</b><span>Journal Articles</span></div>
@@ -1091,12 +1073,12 @@ footer .wrap {
         <li>
           <time>Aug 2026</time>
           <span class="news-dot"></span>
-          <div><span class="n-badge bu">Milestone</span>Started Ph.D. in Systems Engineering at <strong>Boston University</strong>; on academic study leave from RUET.</div>
+          <div><span class="n-badge bu">Milestone</span>Commenced Ph.D. in Systems Engineering at <strong>Boston University</strong>; on academic leave from RUET.</div>
         </li>
         <li>
           <time>Feb 2026</time>
           <span class="news-dot"></span>
-          <div><span class="n-badge pub">Journal</span>Paper on <a href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">virtual inertia emulation using a time-series disturbance observer</a> published in <em>Int. J. Electrical Power &amp; Energy Systems</em>.</div>
+          <div><span class="n-badge pub">Journal</span>Article on <a href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">virtual inertia emulation using a time-series disturbance observer</a> published in <em>Int. J. Electrical Power &amp; Energy Systems</em>.</div>
         </li>
         <li>
           <time>2025</time>
@@ -1130,69 +1112,69 @@ footer .wrap {
     <section id="research">
       <div class="sec-head">
         <h2>Core Research Thrusts</h2>
-        <span class="count">Control · Optimization · Microgrids</span>
+        <span class="count">Optimization · Observers · Grid Stability</span>
       </div>
       <div class="thrust-grid">
         <article class="card thrust-card">
           <div class="thrust-vis" aria-hidden="true">
             <svg viewBox="0 0 200 90" fill="none">
-              <line x1="28" y1="12" x2="28" y2="76" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/>
-              <line x1="28" y1="76" x2="180" y2="76" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/>
-              <path d="M40 20 Q58 64 162 68" stroke="#38bdf8" stroke-width="2.5" fill="none"/>
-              <circle cx="46" cy="28" r="4" fill="#f43f5e"/>
-              <circle cx="68" cy="48" r="4" fill="#f43f5e"/>
-              <circle cx="102" cy="60" r="5" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
-              <circle cx="144" cy="66" r="4" fill="#f43f5e"/>
-              <circle cx="95" cy="34" r="3" fill="currentColor" fill-opacity=".35"/>
-              <circle cx="122" cy="42" r="3" fill="currentColor" fill-opacity=".35"/>
-              <text x="108" y="50" font-size="8" fill="currentColor" font-weight="700">Pareto Front</text>
-              <text x="34" y="86" font-size="7.5" fill="currentColor" fill-opacity=".7">Objective J₁ (ITAE)</text>
+              <line x1="28" y1="12" x2="28" y2="76" stroke="currentColor" stroke-opacity=".3" stroke-width="1.2"/>
+              <line x1="28" y1="76" x2="180" y2="76" stroke="currentColor" stroke-opacity=".3" stroke-width="1.2"/>
+              <path d="M40 20 Q58 64 162 68" stroke="var(--accent)" stroke-width="2" fill="none"/>
+              <circle cx="46" cy="28" r="3.5" fill="var(--sage)"/>
+              <circle cx="68" cy="48" r="3.5" fill="var(--sage)"/>
+              <circle cx="102" cy="60" r="4.5" fill="var(--accent)"/>
+              <circle cx="144" cy="66" r="3.5" fill="var(--sage)"/>
+              <circle cx="95" cy="34" r="2.5" fill="currentColor" fill-opacity=".25"/>
+              <circle cx="122" cy="42" r="2.5" fill="currentColor" fill-opacity=".25"/>
+              <text x="108" y="51" font-size="7.5" fill="currentColor" font-family="Plus Jakarta Sans" font-weight="600">Pareto Front</text>
+              <text x="34" y="86" font-size="7" fill="currentColor" fill-opacity=".6">Objective J₁ (ITAE)</text>
             </svg>
           </div>
-          <span class="thrust-num">Thrust 01 · Optimization</span>
+          <span class="thrust-num">Thrust I · Optimization</span>
           <h4>Multi-Objective Metaheuristics &amp; Online Control</h4>
-          <p>Designing hybrid bio-inspired and convex optimization frameworks for optimal controller tuning, PID neural networks, and energy management in renewable grids.</p>
+          <p>Designing hybrid bio-inspired and convex optimization frameworks for controller tuning, PID neural networks, and energy management in renewable power networks.</p>
         </article>
 
         <article class="card thrust-card">
           <div class="thrust-vis" aria-hidden="true">
             <svg viewBox="0 0 200 90" fill="none">
-              <rect x="20" y="20" width="48" height="24" rx="5" stroke="#38bdf8" stroke-width="1.6"/>
-              <text x="44" y="35" font-size="8" text-anchor="middle" fill="currentColor" font-weight="700">Controller</text>
-              <rect x="112" y="20" width="54" height="24" rx="5" stroke="#818cf8" fill="rgba(56,189,248,.12)" stroke-width="1.6"/>
-              <text x="139" y="35" font-size="8" text-anchor="middle" fill="currentColor" font-weight="700">Microgrid</text>
-              <rect x="64" y="56" width="58" height="22" rx="5" stroke="#f43f5e" stroke-width="1.6"/>
-              <text x="93" y="70" font-size="8" text-anchor="middle" fill="currentColor" font-weight="700">Observer (d̂)</text>
-              <line x1="68" y1="32" x2="112" y2="32" stroke="currentColor" stroke-width="1.5"/>
-              <line x1="166" y1="32" x2="184" y2="32" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M174 32 V67 H122" stroke="#38bdf8" stroke-width="1.5"/>
-              <path d="M64 67 H88 V32" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="2.5 2.5"/>
+              <rect x="20" y="20" width="48" height="24" rx="4" stroke="currentColor" stroke-opacity=".6" stroke-width="1.3"/>
+              <text x="44" y="35" font-size="7.5" text-anchor="middle" fill="currentColor" font-weight="600">Controller</text>
+              <rect x="112" y="20" width="54" height="24" rx="4" stroke="var(--sage)" fill="var(--sage-soft)" stroke-width="1.4"/>
+              <text x="139" y="35" font-size="7.5" text-anchor="middle" fill="currentColor" font-weight="600">Microgrid</text>
+              <rect x="64" y="56" width="58" height="22" rx="4" stroke="var(--accent)" stroke-width="1.4"/>
+              <text x="93" y="70" font-size="7.5" text-anchor="middle" fill="currentColor" font-weight="600">Observer (d̂)</text>
+              <line x1="68" y1="32" x2="112" y2="32" stroke="currentColor" stroke-opacity=".6" stroke-width="1.3"/>
+              <line x1="166" y1="32" x2="184" y2="32" stroke="currentColor" stroke-opacity=".6" stroke-width="1.3"/>
+              <path d="M174 32 V67 H122" stroke="var(--sage)" stroke-width="1.3"/>
+              <path d="M64 67 H88 V32" stroke="var(--accent)" stroke-width="1.3" stroke-dasharray="2.5 2.5"/>
             </svg>
           </div>
-          <span class="thrust-num">Thrust 02 · Robust Control</span>
+          <span class="thrust-num">Thrust II · Robust Control</span>
           <h4>Disturbance Observer-Based Control (DOBC)</h4>
-          <p>Time-series and nonlinear disturbance observers paired with sliding-mode, fractional-order, and ADRC architectures to reject stochastic wind/solar fluctuations and FDI attacks.</p>
+          <p>Time-series and nonlinear disturbance observers paired with sliding-mode, fractional-order, and ADRC architectures to reject stochastic renewable fluctuations and FDI attacks.</p>
         </article>
 
         <article class="card thrust-card">
           <div class="thrust-vis" aria-hidden="true">
             <svg viewBox="0 0 200 90" fill="none">
-              <line x1="20" y1="42" x2="184" y2="42" stroke="currentColor" stroke-opacity=".3" stroke-dasharray="3 3"/>
-              <path d="M20 42 H45 C58 42, 64 82, 82 78 C102 74, 112 28, 132 48 C148 56, 162 39, 182 42" stroke="#f43f5e" stroke-width="1.7" stroke-dasharray="3 2" fill="none"/>
-              <path d="M20 42 H45 C58 42, 65 55, 84 51 C104 47, 118 41, 182 42" stroke="#38bdf8" stroke-width="2.6" fill="none"/>
-              <text x="112" y="25" font-size="7.5" fill="#38bdf8" font-weight="700">Virtual Inertia DOB</text>
-              <text x="90" y="84" font-size="7.5" fill="#f43f5e" font-weight="600">Uncompensated Nadir</text>
-              <text x="22" y="35" font-size="7.5" fill="currentColor" fill-opacity=".7">Δf (Hz)</text>
+              <line x1="20" y1="42" x2="184" y2="42" stroke="currentColor" stroke-opacity=".25" stroke-dasharray="3 3"/>
+              <path d="M20 42 H45 C58 42, 64 82, 82 78 C102 74, 112 28, 132 48 C148 56, 162 39, 182 42" stroke="var(--accent)" stroke-width="1.4" stroke-dasharray="3 2" fill="none"/>
+              <path d="M20 42 H45 C58 42, 65 55, 84 51 C104 47, 118 41, 182 42" stroke="var(--sage)" stroke-width="2.2" fill="none"/>
+              <text x="110" y="25" font-size="7.5" fill="var(--sage)" font-weight="600">With Virtual Inertia</text>
+              <text x="90" y="84" font-size="7" fill="var(--accent)" font-weight="500">Uncompensated Nadir</text>
+              <text x="22" y="35" font-size="7" fill="currentColor" fill-opacity=".6">Δf (Hz)</text>
             </svg>
           </div>
-          <span class="thrust-num">Thrust 03 · Power Systems</span>
+          <span class="thrust-num">Thrust III · Power Systems</span>
           <h4>Virtual Inertia &amp; Grid-Forming Microgrids</h4>
           <p>Emulating synthetic inertia via energy storage and grid-forming inverters to arrest rate-of-change-of-frequency (RoCoF) and stabilize low-inertia islanded grids.</p>
         </article>
       </div>
     </section>
 
-    <!-- ==================== PUBLICATIONS (PRE-RENDERED + INTERACTIVE FILTERING) ==================== -->
+    <!-- ==================== PUBLICATIONS ==================== -->
     <section id="publications">
       <div class="sec-head">
         <h2>Publications</h2>
@@ -1208,7 +1190,7 @@ footer .wrap {
       </div>
 
       <div id="pubList">
-        <!-- JOURNAL ARTICLES GROUP -->
+        <!-- JOURNAL ARTICLES -->
         <div class="pub-group" data-group="journal">
           <h3>Selected Journal Articles (<span class="g-count">7</span>)</h3>
 
@@ -1217,7 +1199,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">Virtual inertia emulation in islanded microgrids using a time-series disturbance observer for frequency stabilization</a>
               <div class="authors"><b>M. M. Hasan</b>, M. S. Rana, T. S. Joyeeta, and F. Tabassum</div>
-              <div class="venue">International Journal of Electrical Power &amp; Energy Systems<span style="font-style:normal;color:var(--muted)">, vol. 176, p. 111673, 2026</span></div>
+              <div class="venue">International Journal of Electrical Power &amp; Energy Systems<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 176, p. 111673, 2026</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2026</span><span class="tag">Elsevier</span>
                 <a class="tag link" href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">DOI ↗</a>
@@ -1232,7 +1214,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1049/rpg2.70137" target="_blank" rel="noopener">Disturbance observer-aided SSA-TID control for frequency stabilization in hybrid renewable power systems</a>
               <div class="authors">R. Hasan, <b>M. M. Hasan</b>, M. S. Rana, F. Tabassum, and M. N. B. Reza</div>
-              <div class="venue">IET Renewable Power Generation<span style="font-style:normal;color:var(--muted)">, vol. 19, no. 1, 2025</span></div>
+              <div class="venue">IET Renewable Power Generation<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 19, no. 1, 2025</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2025</span><span class="tag">IET / Wiley</span>
                 <a class="tag link" href="https://doi.org/10.1049/rpg2.70137" target="_blank" rel="noopener">DOI ↗</a>
@@ -1247,7 +1229,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1016/j.prime.2025.101097" target="_blank" rel="noopener">Optimal defense against security threat on stability of grid-integrated synchronous generator during FDI attack</a>
               <div class="authors">F. Tabassum, M. Rana, T. S. Joyeeta, and <b>M. M. Hasan</b></div>
-              <div class="venue">e-Prime - Advances in Electrical Engineering, Electronics and Energy<span style="font-style:normal;color:var(--muted)">, vol. 13, p. 101097, 2025</span></div>
+              <div class="venue">e-Prime - Advances in Electrical Engineering, Electronics and Energy<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 13, p. 101097, 2025</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2025</span><span class="tag">Elsevier</span>
                 <a class="tag link" href="https://doi.org/10.1016/j.prime.2025.101097" target="_blank" rel="noopener">DOI ↗</a>
@@ -1262,7 +1244,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1016/j.ecmx.2025.100902" target="_blank" rel="noopener">An asymmetric fuzzy-based self-tuned PSO-optimized MPPT controller for grid-connected solar photovoltaic system</a>
               <div class="authors">M. N.-U.-Rahman, <b>M. M. Hasan</b>, A. M. Raka, M. F. Rahman, M. M. Rana, A. A. Mansur, and M. A. Razzak</div>
-              <div class="venue">Energy Conversion and Management: X<span style="font-style:normal;color:var(--muted)">, vol. 26, p. 100902, 2025</span></div>
+              <div class="venue">Energy Conversion and Management: X<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 26, p. 100902, 2025</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2025</span><span class="tag">Elsevier</span>
                 <a class="tag link" href="https://doi.org/10.1016/j.ecmx.2025.100902" target="_blank" rel="noopener">DOI ↗</a>
@@ -1277,7 +1259,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1016/j.asoc.2023.110771" target="_blank" rel="noopener">Optimizing the initial weights of a PID neural network controller for voltage stabilization of microgrids using a PEO-GA algorithm</a>
               <div class="authors"><b>M. M. Hasan</b>, M. S. Rana, F. Tabassum, H. R. Pota, and M. H. K. Roni</div>
-              <div class="venue">Applied Soft Computing<span style="font-style:normal;color:var(--muted)">, vol. 147, p. 110771, 2023</span></div>
+              <div class="venue">Applied Soft Computing<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 147, p. 110771, 2023</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2023</span><span class="tag">Elsevier</span>
                 <a class="tag link" href="https://doi.org/10.1016/j.asoc.2023.110771" target="_blank" rel="noopener">DOI ↗</a>
@@ -1292,7 +1274,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1007/s40435-021-00892-3" target="_blank" rel="noopener">Recent trends in bio-inspired meta-heuristic optimization techniques in control applications for electrical systems: A review</a>
               <div class="authors">M. H. K. Roni, M. S. Rana, H. R. Pota, <b>M. M. Hasan</b>, and M. S. Hussain</div>
-              <div class="venue">International Journal of Dynamics and Control<span style="font-style:normal;color:var(--muted)">, vol. 10, no. 3, pp. 999–1011, Jan. 2022</span></div>
+              <div class="venue">International Journal of Dynamics and Control<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 10, no. 3, pp. 999–1011, Jan. 2022</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2022</span><span class="tag">Springer</span>
                 <a class="tag link" href="https://doi.org/10.1007/s40435-021-00892-3" target="_blank" rel="noopener">DOI ↗</a>
@@ -1307,7 +1289,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1049/iet-gtd.2019.1917" target="_blank" rel="noopener">Performance improvement of DFIG-based wind farms using NARMA-L2 controlled bridge-type flux coupling non-superconducting fault current limiter</a>
               <div class="authors">M. R. Islam, J. Hasan, <b>M. M. Hasan</b>, M. N. Huda, M. A. H. Sadi, and A. AbuHussein</div>
-              <div class="venue">IET Generation, Transmission and Distribution<span style="font-style:normal;color:var(--muted)">, vol. 14, no. 26, pp. 6580–6593, 2021</span></div>
+              <div class="venue">IET Generation, Transmission and Distribution<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, vol. 14, no. 26, pp. 6580–6593, 2021</span></div>
               <div class="tags">
                 <span class="tag type-j">Journal</span><span class="tag">2021</span><span class="tag">IET</span>
                 <a class="tag link" href="https://doi.org/10.1049/iet-gtd.2019.1917" target="_blank" rel="noopener">DOI ↗</a>
@@ -1318,7 +1300,7 @@ footer .wrap {
           </article>
         </div>
 
-        <!-- UNDER REVIEW GROUP -->
+        <!-- UNDER REVIEW -->
         <div class="pub-group" data-group="review">
           <h3>Manuscripts Under Review (<span class="g-count">1</span>)</h3>
 
@@ -1327,7 +1309,7 @@ footer .wrap {
             <div>
               <span class="title">Multivariable power control of grid-forming inverters using a PID neural network</span>
               <div class="authors"><b>M. M. Hasan</b>, M. M. Hasan, M. S. Rana, F. Tabassum, and T. S. Joyeeta</div>
-              <div class="venue">IET Renewable Power Generation<span style="font-style:normal;color:var(--muted)">, manuscript under review, 2025</span></div>
+              <div class="venue">IET Renewable Power Generation<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, manuscript under review, 2025</span></div>
               <div class="tags">
                 <span class="tag type-r">Under Review</span><span class="tag">2025</span>
                 <button type="button" class="tag cite" data-mode="ieee">Copy Citation</button>
@@ -1337,7 +1319,7 @@ footer .wrap {
           </article>
         </div>
 
-        <!-- CONFERENCE PAPERS GROUP -->
+        <!-- CONFERENCE PAPERS -->
         <div class="pub-group" data-group="conference">
           <h3>Selected Conference Papers (<span class="g-count">7</span>)</h3>
 
@@ -1346,7 +1328,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/ECCE64574.2025.11013018" target="_blank" rel="noopener">Voltage control of grid-forming inverter in islanded microgrids using PSO-optimized sliding mode controller</a>
               <div class="authors">M. N. M. Rahi, <b>M. M. Hasan</b>, M. Y.-Y. U. Haque, A. I. Abeg, and T. S. Turna</div>
-              <div class="venue">Proc. Int. Conf. Electrical, Computer &amp; Communication Engineering (ECCE)<span style="font-style:normal;color:var(--muted)">, 2025, pp. 1–6</span></div>
+              <div class="venue">Proc. Int. Conf. Electrical, Computer &amp; Communication Engineering (ECCE)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2025, pp. 1–6</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2025</span><span class="tag">IEEE</span>
                 <a class="tag link" href="https://doi.org/10.1109/ECCE64574.2025.11013018" target="_blank" rel="noopener">DOI ↗</a>
@@ -1361,7 +1343,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/ICCIT64611.2024.11022531" target="_blank" rel="noopener">Salp swarm algorithm based integral LQG control of two area nonlinear power system with renewable energy penetration</a>
               <div class="authors">M. A. Hossain, <b>M. M. Hasan</b>, F. Tabassum, and M. S. Rana</div>
-              <div class="venue">Proc. Int. Conf. Computer and Information Technology (ICCIT)<span style="font-style:normal;color:var(--muted)">, 2024, pp. 657–662</span></div>
+              <div class="venue">Proc. Int. Conf. Computer and Information Technology (ICCIT)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2024, pp. 657–662</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2024</span><span class="tag">IEEE</span>
                 <a class="tag link" href="https://doi.org/10.1109/ICCIT64611.2024.11022531" target="_blank" rel="noopener">DOI ↗</a>
@@ -1376,7 +1358,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/ICDRET60388.2024.10504017" target="_blank" rel="noopener">Optimal fractional order control of virtual inertia emulator for a microgrid with high renewable energy penetration</a>
               <div class="authors"><b>M. M. Hasan</b>, M. S. Rahman, M. S. Rana, and F. Tabassum</div>
-              <div class="venue">Proc. Int. Conf. Developments in Renewable Energy Technology (ICDRET)<span style="font-style:normal;color:var(--muted)">, 2024, pp. 1–6</span></div>
+              <div class="venue">Proc. Int. Conf. Developments in Renewable Energy Technology (ICDRET)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2024, pp. 1–6</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2024</span><span class="tag">IEEE</span>
                 <a class="tag link" href="https://doi.org/10.1109/ICDRET60388.2024.10504017" target="_blank" rel="noopener">DOI ↗</a>
@@ -1391,7 +1373,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/ICECE57408.2022.10089057" target="_blank" rel="noopener">Performance augmentation of an arc suppression device using particle swarm optimization based proportional resonant controller</a>
               <div class="authors">M. A. Rafi, <b>M. M. Hasan</b>, M. Y.-Y. U. Haque, Z. Ferdous, M. S. Rana, and M. F. Hossain</div>
-              <div class="venue">Proc. Int. Conf. Electrical and Computer Engineering (ICECE)<span style="font-style:normal;color:var(--muted)">, 2022, pp. 445–448</span></div>
+              <div class="venue">Proc. Int. Conf. Electrical and Computer Engineering (ICECE)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2022, pp. 445–448</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2022</span><span class="tag">IEEE</span>
                 <a class="tag link" href="https://doi.org/10.1109/ICECE57408.2022.10089057" target="_blank" rel="noopener">DOI ↗</a>
@@ -1406,7 +1388,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/ICEEE54059.2021.9718799" target="_blank" rel="noopener">Population extremal optimization based 2-DOF control strategy for field oriented control of induction motor</a>
               <div class="authors"><b>M. M. Hasan</b>, M. S. Hussain, M. S. Rana, and M. H. K. Roni</div>
-              <div class="venue">Proc. Int. Conf. Electrical and Electronic Engineering (ICEEE)<span style="font-style:normal;color:var(--muted)">, 2021, pp. 117–120</span></div>
+              <div class="venue">Proc. Int. Conf. Electrical and Electronic Engineering (ICEEE)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2021, pp. 117–120</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2021</span><span class="tag">IEEE</span>
                 <a class="tag link" href="https://doi.org/10.1109/ICEEE54059.2021.9718799" target="_blank" rel="noopener">DOI ↗</a>
@@ -1421,7 +1403,7 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/GUCON50781.2021.9573922" target="_blank" rel="noopener">Modified population extremal optimization based PID neural network for islanded microgrid system</a>
               <div class="authors"><b>M. M. Hasan</b> and M. S. Rana</div>
-              <div class="venue">Proc. IEEE Int. Conf. Computing, Power and Communication Technologies (GUCON)<span style="font-style:normal;color:var(--muted)">, 2021, pp. 1–6</span></div>
+              <div class="venue">Proc. IEEE Int. Conf. Computing, Power and Communication Technologies (GUCON)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2021, pp. 1–6</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2021</span><span class="tag">IEEE</span>
                 <a class="tag link" href="https://doi.org/10.1109/GUCON50781.2021.9573922" target="_blank" rel="noopener">DOI ↗</a>
@@ -1436,10 +1418,10 @@ footer .wrap {
             <div>
               <a class="title" href="https://doi.org/10.1109/ICECTE48615.2019.9303559" target="_blank" rel="noopener">Artificial neural network based speed estimator for sensorless field oriented control of three phase induction motor</a>
               <div class="authors"><b>M. M. Hasan</b></div>
-              <div class="venue">Proc. Int. Conf. Electrical, Computer &amp; Telecommunication Engineering (ICECTE)<span style="font-style:normal;color:var(--muted)">, 2019, pp. 57–60</span></div>
+              <div class="venue">Proc. Int. Conf. Electrical, Computer &amp; Telecommunication Engineering (ICECTE)<span style="font-style:normal;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-size:.85rem">, 2019, pp. 57–60</span></div>
               <div class="tags">
                 <span class="tag type-c">Conference</span><span class="tag">2019</span><span class="tag">IEEE</span>
-                <a class="tag link" href="https://doi.org/10.1109/ICECTE48615.2021.9303559" target="_blank" rel="noopener">DOI ↗</a>
+                <a class="tag link" href="https://doi.org/10.1109/ICECTE48615.2019.9303559" target="_blank" rel="noopener">DOI ↗</a>
                 <button type="button" class="tag cite" data-mode="ieee">Copy Citation</button>
                 <button type="button" class="tag cite" data-mode="bib">BibTeX</button>
               </div>
@@ -1449,8 +1431,8 @@ footer .wrap {
       </div>
 
       <p class="empty" id="pubEmpty">No publications match your current filter or search query.</p>
-      <p style="font-size:.84rem;color:var(--muted);margin-top:14px">
-        <b style="color:var(--text);text-decoration:underline;text-decoration-color:var(--secondary);text-underline-offset:3px">Underlined</b> = Md. Mahmudul Hasan. Click any paper title to open via DOI, or use the action buttons to copy formatted IEEE citations or BibTeX entries.
+      <p style="font-size:.83rem;color:var(--muted);margin-top:14px">
+        <b style="color:var(--text);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px">Underlined</b> = Md. Mahmudul Hasan. Click any paper title to open via DOI, or use the buttons to copy IEEE citations or BibTeX entries.
       </p>
     </section>
 
@@ -1503,7 +1485,7 @@ footer .wrap {
           </dl>
         </div>
         <div class="card box">
-          <span class="pill">Power Systems Operations</span>
+          <span class="pill crimson">Power Systems Operations</span>
           <div class="t-top" style="margin-top:10px"><h3>Ghorashal Power Station</h3><span class="t-date">May 2018</span></div>
           <div class="t-org">Bangladesh Power Development Board (BPDB), Ghorashal</div>
           <p>Intensive hands-on industrial training covering steam turbine, gas turbine, combined-cycle, and gas engine generation units, high-voltage substations, switchgear protection, and full-scope power plant simulator operations.</p>
@@ -1521,7 +1503,7 @@ footer .wrap {
         <div class="card t-item current">
           <div class="t-top"><h3>Ph.D. in Systems Engineering</h3><span class="t-date">Aug 2026 – Present</span></div>
           <div class="t-org">Boston University, College of Engineering, Boston, MA, USA</div>
-          <span class="pill">In Progress</span>
+          <span class="pill crimson">In Progress</span>
           <ul>
             <li><b>Graduate Coursework:</b> Dynamic System Theory, Optimization Theory II, Probability with Statistical Applications</li>
           </ul>
@@ -1529,7 +1511,7 @@ footer .wrap {
         <div class="card t-item">
           <div class="t-top"><h3>M.Sc. in Electrical &amp; Electronic Engineering</h3><span class="t-date">Apr 2020 – Dec 2024</span></div>
           <div class="t-org">Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh</div>
-          <span class="pill gold">CGPA 3.92 / 4.00</span>
+          <span class="pill">CGPA 3.92 / 4.00</span>
           <ul>
             <li><b>Thesis:</b> <em>Development of a Hybrid Metaheuristic Optimization Based Control Platform for Three Phase Microgrid Systems</em></li>
             <li><b>Advisor:</b> Prof. Dr. Md Sohel Rana</li>
@@ -1539,7 +1521,7 @@ footer .wrap {
         <div class="card t-item">
           <div class="t-top"><h3>B.Sc. in Electrical &amp; Electronic Engineering</h3><span class="t-date">Jan 2015 – Aug 2019</span></div>
           <div class="t-org">Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh</div>
-          <span class="pill gold">CGPA 3.89 / 4.00</span><span class="pill">Honors · Ranked 2nd of 120</span>
+          <span class="pill">CGPA 3.89 / 4.00</span><span class="pill gold">Honors · Ranked 2nd of 120</span>
           <ul>
             <li><b>Thesis:</b> <em>Artificial Neural Network Based Sensorless Field Oriented Control of Three Phase Induction Motor</em></li>
             <li><b>Advisor:</b> Prof. Dr. S. M. Abdur Razzak</li>
@@ -1614,28 +1596,28 @@ footer .wrap {
       <div class="card skills">
         <div class="box">
           <span class="lbl">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20m-4.9-7.1L6.9 19.1M19.1 19.1 4.9 4.9"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v20M2 12h20m-4.9-7.1L6.9 19.1M19.1 19.1 4.9 4.9"/></svg>
             Control Theory
           </span>
           <div class="chips"><span>State-Space &amp; LQR/LQG</span><span>Observer-Based Control</span><span>H∞ Robust Control</span><span>Disturbance Observers (Linear &amp; Nonlinear)</span><span>Sliding Mode Control</span><span>Adaptive &amp; Neuro-Adaptive Control</span></div>
         </div>
         <div class="box">
           <span class="lbl">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
             Optimization &amp; ML
           </span>
           <div class="chips"><span>Convex Optimization</span><span>Multi-Objective Metaheuristics</span><span>PID Neural Networks</span><span>ANN / RNN / LSTM / GRU</span></div>
         </div>
         <div class="box">
           <span class="lbl">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
             Programming &amp; Tools
           </span>
           <div class="chips"><span>MATLAB &amp; Simulink</span><span>Python</span><span>PyTorch</span><span>NumPy / Pandas / Matplotlib</span><span>C</span><span>LaTeX</span><span>PSpice / Proteus</span></div>
         </div>
         <div class="box">
           <span class="lbl">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
             Hardware &amp; IEC Testing
           </span>
           <div class="chips"><span>Power Transformers (≤ 800 kVA)</span><span>Solar PV Modules</span><span>High-Voltage Insulators &amp; Arresters</span><span>Embedded C / Arduino</span><span>PCB Design</span></div>
@@ -1681,21 +1663,21 @@ footer .wrap {
           <dl class="kv" style="margin-top:14px">
             <dt>Email (BU)</dt><dd><a href="mailto:mmhasan@bu.edu">mmhasan@bu.edu</a></dd>
             <dt>Email (RUET)</dt><dd><a href="mailto:mahmud@eee.ruet.ac.bd">mahmud@eee.ruet.ac.bd</a></dd>
-            <dt>Office / Lab</dt><dd>Division of Systems Engineering, Boston University, Boston, MA 02215</dd>
+            <dt>Academic Unit</dt><dd>Division of Systems Engineering, Boston University, Boston, MA 02215</dd>
             <dt>Home Institution</dt><dd>Dept. of EEE, RUET, Rajshahi-6204, Bangladesh</dd>
           </dl>
         </div>
         <div class="card box">
           <h3>Thesis Advisors &amp; Mentors</h3>
           <p>
-            <b>Prof. Dr. Md Sohel Rana</b><br>
+            <b style="color:var(--text)">Prof. Dr. Md Sohel Rana</b><br>
             Professor, Dept. of EEE, RUET<br>
-            <span style="color:var(--muted);font-size:.85rem">M.Sc. Thesis Advisor &amp; Research Collaborator · <a href="mailto:sohel@eee.ruet.ac.bd">sohel@eee.ruet.ac.bd</a></span>
+            <span style="color:var(--muted);font-size:.84rem">M.Sc. Thesis Advisor &amp; Research Collaborator · <a href="mailto:sohel@eee.ruet.ac.bd">sohel@eee.ruet.ac.bd</a></span>
           </p>
           <p style="margin-top:14px">
-            <b>Prof. Dr. S. M. Abdur Razzak</b><br>
+            <b style="color:var(--text)">Prof. Dr. S. M. Abdur Razzak</b><br>
             Professor, Dept. of EEE &amp; Vice-Chancellor, RUET<br>
-            <span style="color:var(--muted);font-size:.85rem">B.Sc. Thesis Advisor · <a href="mailto:sma.razzak@eee.ruet.ac.bd">sma.razzak@eee.ruet.ac.bd</a></span>
+            <span style="color:var(--muted);font-size:.84rem">B.Sc. Thesis Advisor · <a href="mailto:sma.razzak@eee.ruet.ac.bd">sma.razzak@eee.ruet.ac.bd</a></span>
           </p>
         </div>
       </div>
@@ -1851,7 +1833,7 @@ footer .wrap {
         ];
         if (doi) lines.push("  doi = {" + doi + "}");
         lines.push("}");
-        copyToClipboard(lines.join("\n"), "BibTeX copied to clipboard");
+        copyToClipboard(lines.join("\n"), "BibTeX entry copied");
       } else {
         var citeStr = authors + ', "' + title + '," ' + venueFull + "." + (doi ? " doi: " + doi + "." : "");
         copyToClipboard(citeStr, "IEEE Citation copied");
@@ -1859,7 +1841,7 @@ footer .wrap {
     });
   }
 
-  // ==================== 3. NAVIGATION TABS & RELIABLE SCROLL SPY ====================
+  // ==================== 3. NAVIGATION TABS & SCROLL SPY ====================
   var nav = document.getElementById("navlinks");
   var menuBtn = document.getElementById("menuBtn");
   var navAnchors = Array.prototype.slice.call(document.querySelectorAll("#navlinks a"));
@@ -1898,7 +1880,6 @@ footer .wrap {
     var docHeight = document.documentElement.scrollHeight;
     var winHeight = window.innerHeight;
 
-    // If scrolled near the very bottom of the page, highlight the last tab (Contact)
     if (window.scrollY + winHeight >= docHeight - 30) {
       navAnchors.forEach(function(a) { a.classList.remove("active"); });
       navAnchors[navAnchors.length - 1].classList.add("active");
@@ -1921,13 +1902,13 @@ footer .wrap {
   window.addEventListener("scroll", updateActiveNavOnScroll, { passive: true });
   updateActiveNavOnScroll();
 
-  // ==================== 4. DARK / LIGHT THEME TOGGLE ====================
+  // ==================== 4. LIGHT / DARK THEME TOGGLE ====================
   var root = document.documentElement;
   var themeBtn = document.getElementById("themeBtn");
   var themeIcon = document.getElementById("themeIcon");
 
   function renderThemeIcon() {
-    var isDark = root.getAttribute("data-theme") !== "light";
+    var isDark = root.getAttribute("data-theme") === "dark";
     if (!themeIcon) return;
     themeIcon.innerHTML = isDark
       ? '<circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>'
@@ -1935,7 +1916,7 @@ footer .wrap {
   }
 
   try {
-    var savedTheme = localStorage.getItem("mmh_theme");
+    var savedTheme = localStorage.getItem("mmh_editorial_theme");
     if (savedTheme === "light" || savedTheme === "dark") {
       root.setAttribute("data-theme", savedTheme);
     }
@@ -1944,11 +1925,11 @@ footer .wrap {
 
   if (themeBtn) {
     themeBtn.addEventListener("click", function() {
-      var current = root.getAttribute("data-theme") === "light" ? "light" : "dark";
+      var current = root.getAttribute("data-theme") === "dark" ? "dark" : "light";
       var next = current === "dark" ? "light" : "dark";
       root.setAttribute("data-theme", next);
       renderThemeIcon();
-      try { localStorage.setItem("mmh_theme", next); } catch (_) {}
+      try { localStorage.setItem("mmh_editorial_theme", next); } catch (_) {}
     });
   }
 
