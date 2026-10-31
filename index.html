@@ -3,180 +3,463 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Md. Mahmudul Hasan | PhD Student, Boston University · Assistant Professor (On Leave), RUET</title>
+<title>Md. Mahmudul Hasan | PhD Researcher, Boston University · Assistant Professor (On Leave), RUET</title>
 <meta name="description" content="Md. Mahmudul Hasan — PhD student in Systems Engineering at Boston University and Assistant Professor (on leave) of EEE at RUET. Research on metaheuristic optimization, disturbance-observer-based control, and virtual inertia for renewable-integrated microgrids.">
 <meta name="author" content="Md. Mahmudul Hasan">
-<meta property="og:title" content="Md. Mahmudul Hasan — Academic Portfolio">
-<meta property="og:description" content="PhD Student, Systems Engineering, Boston University · Assistant Professor (On Leave), EEE, RUET. Control & optimization for renewable-integrated power systems.">
+<meta property="og:title" content="Md. Mahmudul Hasan — Academic & Research Portfolio">
+<meta property="og:description" content="PhD Researcher in Systems Engineering at Boston University · Assistant Professor (On Leave), EEE, RUET. Control, optimization & virtual inertia for renewable power systems.">
 <meta property="og:type" content="profile">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231d4e89'/><text x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='white' text-anchor='middle'>MH</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23002349'/><path d='M0 54h64v10H0z' fill='%23cc0000'/><text x='32' y='41' font-family='Georgia,serif' font-size='27' font-weight='700' fill='white' text-anchor='middle'>MH</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Md. Mahmudul Hasan","jobTitle":"PhD Student; Assistant Professor (On Leave)","email":"mailto:mmhasan@bu.edu","telephone":"+1-617-516-9248","affiliation":[{"@type":"CollegeOrUniversity","name":"Boston University"},{"@type":"CollegeOrUniversity","name":"Rajshahi University of Engineering & Technology"}],"alumniOf":"Rajshahi University of Engineering & Technology","url":"https://eee.ruet.ac.bd/mahmud/","sameAs":["https://scholar.google.com/citations?user=PUPQdH4AAAAJ","https://linkedin.com/in/mahmud-eee-ruet"],"knowsAbout":["Metaheuristic optimization","Disturbance observer-based control","Virtual inertia emulation","Microgrids","Renewable energy systems"]}
+{"@context":"https://schema.org","@type":"Person","name":"Md. Mahmudul Hasan","jobTitle":"PhD Researcher; Assistant Professor (On Leave)","email":"mailto:mmhasan@bu.edu","affiliation":[{"@type":"CollegeOrUniversity","name":"Boston University"},{"@type":"CollegeOrUniversity","name":"Rajshahi University of Engineering & Technology"}],"alumniOf":"Rajshahi University of Engineering & Technology","url":"https://mmhasan-bu.github.io/","sameAs":["https://eee.ruet.ac.bd/mahmud/","https://scholar.google.com/citations?user=PUPQdH4AAAAJ","https://linkedin.com/in/mahmud-eee-ruet"],"knowsAbout":["Metaheuristic optimization","Disturbance observer-based control","Virtual inertia emulation","Microgrids","Renewable energy systems","Safety-critical control"]}
 </script>
 <style>
 :root{
-  --bg:#f7f6f2; --surface:#ffffff; --surface-2:#f2efe6; --text:#14202e; --muted:#566170;
-  --line:#e4e0d6; --accent:#002349; --accent-2:#957c3d; --accent-soft:#f3eee1; --chip:#eef0f3;
-  --shadow:0 1px 2px rgba(0,35,73,.05),0 6px 24px rgba(0,35,73,.06);
+  --bg:#f8f7f4;
+  --bg-grad:radial-gradient(1100px 500px at 15% -5%, rgba(0,35,73,.07), transparent 70%),
+            radial-gradient(900px 450px at 90% 5%, rgba(204,0,0,.05), transparent 70%);
+  --surface:#ffffff;
+  --surface-2:#f1efe8;
+  --text:#111c2d;
+  --muted:#526071;
+  --line:#e3dfd5;
+  --accent:#002349;      /* Oxford Navy */
+  --accent-2:#957c3d;    /* Academic Gold */
+  --bu-red:#cc0000;      /* BU Scarlet */
+  --accent-soft:#eef2f7;
+  --gold-soft:#f5efe0;
+  --chip:#eef1f5;
+  --shadow:0 2px 4px rgba(0,35,73,.04), 0 10px 28px rgba(0,35,73,.06);
+  --shadow-hover:0 8px 28px rgba(0,35,73,.12);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#0a1626; --surface:#102136; --surface-2:#162a42; --text:#eceef2; --muted:#a3adbb;
-    --line:#223754; --accent:#d4bc84; --accent-2:#c9ad6b; --accent-soft:#2a2a26; --chip:#1b3049;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+    --bg:#091321;
+    --bg-grad:radial-gradient(1100px 500px at 15% -5%, rgba(212,188,132,.08), transparent 70%),
+              radial-gradient(900px 450px at 90% 5%, rgba(204,0,0,.08), transparent 70%);
+    --surface:#101f33;
+    --surface-2:#162942;
+    --text:#edf0f5;
+    --muted:#9fb0c4;
+    --line:#213652;
+    --accent:#e2c992;
+    --accent-2:#c9ad6b;
+    --bu-red:#ff4d4d;
+    --accent-soft:#192e47;
+    --gold-soft:#262622;
+    --chip:#192e47;
+    --shadow:0 2px 6px rgba(0,0,0,.35), 0 12px 32px rgba(0,0,0,.3);
+    --shadow-hover:0 10px 32px rgba(0,0,0,.5);
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0a1626; --surface:#102136; --surface-2:#162a42; --text:#eceef2; --muted:#a3adbb;
-  --line:#223754; --accent:#d4bc84; --accent-2:#c9ad6b; --accent-soft:#2a2a26; --chip:#1b3049;
-  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 24px rgba(0,0,0,.25);
+  --bg:#091321;
+  --bg-grad:radial-gradient(1100px 500px at 15% -5%, rgba(212,188,132,.08), transparent 70%),
+            radial-gradient(900px 450px at 90% 5%, rgba(204,0,0,.08), transparent 70%);
+  --surface:#101f33;
+  --surface-2:#162942;
+  --text:#edf0f5;
+  --muted:#9fb0c4;
+  --line:#213652;
+  --accent:#e2c992;
+  --accent-2:#c9ad6b;
+  --bu-red:#ff4d4d;
+  --accent-soft:#192e47;
+  --gold-soft:#262622;
+  --chip:#192e47;
+  --shadow:0 2px 6px rgba(0,0,0,.35), 0 12px 32px rgba(0,0,0,.3);
+  --shadow-hover:0 10px 32px rgba(0,0,0,.5);
 }
+
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:76px}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{
+  margin:0;
+  background-color:var(--bg);
+  background-image:var(--bg-grad);
+  background-attachment:fixed;
+  color:var(--text);
+  font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none;transition:color .15s}
 a:hover{text-decoration:underline;text-underline-offset:3px}
 h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;line-height:1.25;margin:0}
-.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
 
-/* Nav */
-header.nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nav .wrap{display:flex;align-items:center;gap:16px;height:60px}
-.brand{font-family:"Source Serif 4",serif;font-weight:700;font-size:1.1rem;color:var(--text);white-space:nowrap}
-.brand:hover{text-decoration:none}
+/* ===== Sticky Header ===== */
+header.nav{
+  position:sticky;top:0;z-index:60;
+  background:rgba(0,35,73,.94);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+.nav .wrap{display:flex;align-items:center;gap:14px;height:62px}
+.brand{
+  font-family:"Source Serif 4",serif;
+  font-weight:700;font-size:1.12rem;color:#fff;
+  white-space:nowrap;display:flex;align-items:center;gap:10px;
+}
+.brand-badge{
+  width:28px;height:28px;border-radius:7px;
+  background:linear-gradient(135deg,#957c3d,#c9ad6b);
+  color:#002349;font-size:.82rem;font-weight:700;
+  display:grid;place-items:center;font-family:"Source Serif 4",serif;
+}
+.brand:hover{text-decoration:none;opacity:.95}
 .nav ul{display:flex;gap:2px;list-style:none;margin:0 0 0 auto;padding:0}
-.nav ul a{display:block;padding:6px 11px;border-radius:8px;color:var(--muted);font-size:.9rem;font-weight:500}
-.nav ul a:hover,.nav ul a.active{background:var(--accent-soft);color:var(--accent);text-decoration:none}
-.icon-btn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:8px;width:36px;height:36px;display:grid;place-items:center;cursor:pointer;flex:none}
+.nav ul a{
+  display:block;padding:8px 10px;color:rgba(255,255,255,.78);
+  letter-spacing:.05em;text-transform:uppercase;font-size:.73rem;font-weight:600;
+  border-bottom:2px solid transparent;transition:all .15s;
+}
+.nav ul a:hover{color:#fff;text-decoration:none}
+.nav ul a.active{color:#fff;border-bottom-color:#d4bc84}
+.icon-btn{
+  border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.06);
+  color:#fff;border-radius:9px;width:36px;height:36px;
+  display:grid;place-items:center;cursor:pointer;flex:none;transition:background .15s;
+}
+.icon-btn:hover{background:rgba(255,255,255,.15)}
 .menu-btn{display:none}
 
-/* Layout */
-.layout{display:grid;grid-template-columns:300px 1fr;gap:40px;padding:40px 0 64px}
-aside.profile{align-self:start}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
-.profile .card{padding:26px 24px;text-align:center}
-.avatar{display:block;width:200px;height:200px;object-fit:cover;object-position:50% 30%;margin:4px auto 18px;border-radius:50%;border:4px solid var(--surface);box-shadow:0 0 0 2px #957c3d,0 8px 24px rgba(0,35,73,.18)}
-:root[data-theme="dark"] .avatar{-webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 48%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 50% 50% at 50% 48%,#000 58%,transparent 100%);border-radius:0;box-shadow:none}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .avatar{-webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 48%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 50% 50% at 50% 48%,#000 58%,transparent 100%);border-radius:0;box-shadow:none}}
-.profile h1{font-size:1.5rem}
-.role{color:var(--muted);font-size:.92rem;margin:6px 0 2px}
-.affil{font-size:.92rem;font-weight:500}
-.contact{list-style:none;padding:16px 0 0;margin:18px 0 0;border-top:1px solid var(--line);text-align:left;font-size:.88rem}
-.contact li{display:flex;gap:10px;align-items:flex-start;padding:5px 0;word-break:break-word}
-.contact svg{flex:none;width:16px;height:16px;margin-top:4px;color:var(--accent)}
+/* ===== Main Layout & Sticky Sidebar ===== */
+.layout{display:grid;grid-template-columns:315px 1fr;gap:42px;padding:38px 0 68px}
+aside.profile{
+  align-self:start;
+  position:sticky;
+  top:88px;
+}
+.card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:16px;
+  box-shadow:var(--shadow);
+  transition:border-color .2s, box-shadow .2s, transform .2s;
+}
+.profile .card{
+  padding:28px 24px 24px;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+.profile .card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:6px;
+  background:linear-gradient(90deg, #002349 0%, #957c3d 55%, #cc0000 100%);
+}
+.avatar-wrap{position:relative;width:176px;height:176px;margin:4px auto 16px}
+.avatar{
+  display:block;width:176px;height:176px;
+  object-fit:cover;object-position:50% 28%;
+  border-radius:50%;
+  border:4px solid var(--surface);
+  box-shadow:0 0 0 2px var(--accent-2), 0 10px 26px rgba(0,35,73,.22);
+}
+.status-dot{
+  position:absolute;bottom:10px;right:10px;
+  background:var(--surface);padding:3px 9px;border-radius:999px;
+  border:1px solid var(--line);font-size:.7rem;font-weight:700;
+  color:var(--text);display:inline-flex;align-items:center;gap:5px;
+  box-shadow:0 2px 8px rgba(0,0,0,.12);
+}
+.status-dot::before{
+  content:"";width:7px;height:7px;border-radius:50%;background:#16a34a;
+}
+.profile h1{font-size:1.48rem;letter-spacing:-.01em}
+.affil-badges{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.affil-card{
+  background:var(--surface-2);border:1px solid var(--line);
+  border-radius:11px;padding:9px 12px;text-align:left;
+}
+.affil-card .r-title{font-size:.82rem;font-weight:700;color:var(--text);display:flex;justify-content:space-between;align-items:center}
+.affil-card .r-dept{font-size:.78rem;color:var(--muted);margin-top:1px}
+.affil-card .r-org{font-size:.8rem;font-weight:600;color:var(--accent);margin-top:2px}
+.mini-tag{
+  font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+  padding:2px 6px;border-radius:5px;background:rgba(204,0,0,.11);color:var(--bu-red);
+}
+.mini-tag.gold{background:var(--gold-soft);color:var(--accent-2)}
+
+.contact{
+  list-style:none;padding:14px 0 0;margin:16px 0 0;
+  border-top:1px solid var(--line);text-align:left;font-size:.86rem;
+}
+.contact li{display:flex;gap:10px;align-items:center;padding:5px 0;word-break:break-word}
+.contact svg{flex:none;width:15px;height:15px;color:var(--accent-2)}
 .btns{display:flex;gap:8px;margin-top:16px}
-.btn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:9px 12px;border-radius:10px;font-size:.86rem;font-weight:600;border:1px solid var(--accent);color:var(--accent);background:transparent}
+.btn{
+  flex:1;display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  padding:9px 12px;border-radius:10px;font-size:.85rem;font-weight:600;
+  border:1px solid var(--accent);color:var(--accent);background:transparent;
+  transition:all .15s;
+}
 .btn.primary{background:#002349;border-color:#002349;color:#fff}
-:root[data-theme="dark"] .btn.primary{background:#957c3d;border-color:#957c3d}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn.primary{background:#957c3d;border-color:#957c3d}}
-.btn:hover{text-decoration:none;filter:brightness(1.05)}
+:root[data-theme="dark"] .btn.primary{background:#c9ad6b;border-color:#c9ad6b;color:#091321}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .btn.primary{background:#c9ad6b;border-color:#c9ad6b;color:#091321}
+}
+.btn:hover{text-decoration:none;transform:translateY(-1px);filter:brightness(1.06)}
 
-/* Sections */
-main section{margin-bottom:48px}
-.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:18px;padding-bottom:10px;border-bottom:2px solid var(--line);position:relative}
-.sec-head::after{content:"";position:absolute;left:0;bottom:-2px;width:56px;height:2px;background:var(--accent-2)}
-.sec-head h2{font-size:1.65rem}
-.sec-head .count{color:var(--muted);font-size:.85rem}
-h3.sub{font-size:1.15rem;margin:26px 0 12px;color:var(--text)}
-.lead{font-size:1.04rem}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}
-.stat{padding:16px;text-align:center}
-.stat b{display:block;font-family:"Source Serif 4",serif;font-size:1.9rem;color:var(--accent);line-height:1.1}
-.stat span{font-size:.8rem;color:var(--muted)}
-.interests{display:grid;gap:12px}
-.interest{display:flex;gap:14px;padding:16px 18px;align-items:flex-start}
-.interest .num{flex:none;width:34px;height:34px;border-radius:10px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-weight:700;font-family:"Source Serif 4",serif}
-.news{padding:6px 20px}
-.news li{padding:10px 0;border-bottom:1px dashed var(--line);display:grid;grid-template-columns:96px 1fr;gap:12px;font-size:.94rem}
-.news li:last-child{border:0}
-.news time{color:var(--accent-2);font-weight:600;font-size:.84rem;padding-top:2px}
-ul.clean{list-style:none;margin:0;padding:0}
+/* ===== Sections ===== */
+main section{margin-bottom:52px}
+.sec-head{
+  display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+  margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid var(--line);position:relative;
+  flex-wrap:wrap;
+}
+.sec-head::after{
+  content:"";position:absolute;left:0;bottom:-2px;width:64px;height:2px;
+  background:linear-gradient(90deg, var(--bu-red), var(--accent-2));
+}
+.sec-head h2{font-size:1.62rem;letter-spacing:-.01em}
+.sec-head .count{color:var(--muted);font-size:.85rem;font-weight:500}
+h3.sub{font-size:1.16rem;margin:30px 0 14px;color:var(--text);display:flex;align-items:center;gap:8px}
+.lead{font-size:1.03rem}
+#about > p{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto;margin:0 0 14px}
 
-/* Publications */
+/* ===== Stat Counter Cards ===== */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 28px}
+.stat{
+  padding:16px 14px;text-align:center;position:relative;overflow:hidden;
+}
+.stat:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover);border-color:var(--accent-2)}
+.stat b{
+  display:block;font-family:"Source Serif 4",serif;
+  font-size:2rem;color:var(--accent);line-height:1.08;
+}
+.stat span{font-size:.8rem;font-weight:500;color:var(--muted);margin-top:4px;display:block}
+
+/* ===== Visual Research Thrust Cards ===== */
+.thrust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.thrust-card{
+  padding:18px;display:flex;flex-direction:column;gap:12px;
+  position:relative;overflow:hidden;
+}
+.thrust-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow-hover);
+  border-color:var(--accent-2);
+}
+.thrust-vis{
+  height:105px;border-radius:10px;
+  background:var(--surface-2);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;padding:8px;
+}
+.thrust-vis svg{width:100%;height:100%;max-width:220px}
+.thrust-num{
+  font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--accent-2);
+}
+.thrust-card h4{
+  font-family:"Source Serif 4",serif;font-size:1.05rem;margin:0;color:var(--text);line-height:1.3;
+}
+.thrust-card p{font-size:.86rem;color:var(--muted);margin:0;line-height:1.55}
+
+/* ===== Recent Highlights Vertical Timeline ===== */
+.news-timeline{
+  padding:18px 22px;position:relative;list-style:none;margin:0;
+}
+.news-timeline::before{
+  content:"";position:absolute;left:118px;top:22px;bottom:22px;width:2px;background:var(--line);
+}
+.news-timeline li{
+  display:grid;grid-template-columns:84px 28px 1fr;gap:8px;
+  padding:10px 0;align-items:baseline;font-size:.93rem;position:relative;
+}
+.news-timeline time{
+  font-weight:700;font-size:.8rem;color:var(--accent-2);text-align:right;
+  font-variant-numeric:tabular-nums;
+}
+.news-dot{
+  width:10px;height:10px;border-radius:50%;
+  background:var(--surface);border:2.5px solid var(--accent);
+  justify-self:center;position:relative;z-index:2;
+}
+.news-timeline li:first-child .news-dot{
+  border-color:var(--bu-red);background:var(--bu-red);
+  box-shadow:0 0 0 4px rgba(204,0,0,.18);
+}
+.n-badge{
+  display:inline-block;font-size:.7rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.04em;padding:1px 7px;border-radius:4px;margin-right:6px;
+  background:var(--accent-soft);color:var(--accent);vertical-align:middle;
+}
+.n-badge.bu{background:rgba(204,0,0,.12);color:var(--bu-red)}
+.n-badge.pub{background:var(--gold-soft);color:var(--accent-2)}
+
+/* ===== Publications ===== */
 .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
-.filter{border:1px solid var(--line);background:var(--surface);color:var(--muted);padding:6px 14px;border-radius:999px;font:500 .86rem Inter,sans-serif;cursor:pointer}
+.filter{
+  border:1px solid var(--line);background:var(--surface);color:var(--muted);
+  padding:6px 14px;border-radius:999px;font:600 .84rem Inter,sans-serif;cursor:pointer;
+  transition:all .15s;
+}
+.filter:hover{border-color:var(--accent);color:var(--text)}
 .filter.on{background:#002349;border-color:#002349;color:#fff}
-:root[data-theme="dark"] .filter.on{background:#957c3d;border-color:#957c3d}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .filter.on{background:#957c3d;border-color:#957c3d}}
-.search{margin-left:auto;flex:1;min-width:180px;max-width:280px;border:1px solid var(--line);background:var(--surface);color:var(--text);padding:7px 14px;border-radius:999px;font:inherit;font-size:.88rem}
-.pub-group h3{font-size:1.1rem;margin:22px 0 10px;color:var(--muted);font-family:Inter,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.8rem}
-.pub{display:grid;grid-template-columns:44px 1fr;gap:12px;padding:16px 18px;margin-bottom:10px;transition:border-color .15s,transform .15s}
-.pub:hover{border-color:var(--accent);transform:translateY(-1px)}
-.pub .idx{font-family:"Source Serif 4",serif;font-weight:700;color:var(--accent-2);font-size:1rem;padding-top:1px}
-.pub .title{font-family:"Source Serif 4",serif;font-size:1.08rem;font-weight:600;color:var(--text);line-height:1.4}
+:root[data-theme="dark"] .filter.on{background:#c9ad6b;border-color:#c9ad6b;color:#091321}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .filter.on{background:#c9ad6b;border-color:#c9ad6b;color:#091321}
+}
+.search{
+  margin-left:auto;flex:1;min-width:200px;max-width:290px;
+  border:1px solid var(--line);background:var(--surface);color:var(--text);
+  padding:7px 14px;border-radius:999px;font:inherit;font-size:.86rem;
+}
+.search:focus{outline:2px solid var(--accent-2);border-color:transparent}
+.pub-group h3{
+  margin:22px 0 10px;color:var(--muted);font-family:Inter,sans-serif;
+  font-weight:700;text-transform:uppercase;letter-spacing:.07em;font-size:.78rem;
+}
+.pub{
+  display:grid;grid-template-columns:48px 1fr;gap:12px;
+  padding:16px 18px;margin-bottom:10px;
+  border-left:3px solid transparent;
+}
+.pub:hover{
+  border-color:var(--line);
+  border-left-color:var(--accent-2);
+  transform:translateY(-1px);
+  box-shadow:var(--shadow-hover);
+}
+.pub .idx{
+  font-family:"Source Serif 4",serif;font-weight:700;color:var(--accent-2);
+  font-size:.98rem;padding-top:1px;
+}
+.pub .title{
+  font-family:"Source Serif 4",serif;font-size:1.06rem;font-weight:600;
+  color:var(--text);line-height:1.38;display:inline-block;
+}
 .pub a.title:hover{color:var(--accent)}
-.pub .authors{font-size:.9rem;color:var(--muted);margin:4px 0 2px}
-.pub .authors b{color:var(--text);font-weight:600;text-decoration:underline;text-decoration-color:var(--accent-2);text-underline-offset:3px}
-.pub .venue{font-size:.9rem;font-style:italic}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
-.tag{font-size:.74rem;font-weight:600;padding:3px 9px;border-radius:6px;background:var(--chip);color:var(--muted)}
+.pub .authors{font-size:.89rem;color:var(--muted);margin:4px 0 2px}
+.pub .authors b{
+  color:var(--text);font-weight:600;
+  text-decoration:underline;text-decoration-color:var(--accent-2);text-underline-offset:3px;
+}
+.pub .venue{font-size:.89rem;font-style:italic;color:var(--text)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{
+  font-size:.73rem;font-weight:600;padding:3px 9px;border-radius:6px;
+  background:var(--chip);color:var(--muted);display:inline-flex;align-items:center;gap:4px;
+}
 .tag.type-j{background:var(--accent-soft);color:var(--accent)}
-.tag.type-c{background:color-mix(in srgb,var(--accent-2) 16%,transparent);color:var(--accent-2)}
-.tag.link{color:var(--accent);border:1px solid var(--line);background:transparent}
-.tag.link:hover{border-color:var(--accent);text-decoration:none}
-.tag.cite{cursor:pointer;border:1px solid var(--line);background:transparent;font-family:inherit}
+.tag.type-c{background:var(--gold-soft);color:var(--accent-2)}
+.tag.link,.tag.cite{
+  color:var(--accent);border:1px solid var(--line);background:var(--surface);
+  cursor:pointer;font-family:inherit;transition:all .15s;
+}
+.tag.link:hover,.tag.cite:hover{
+  border-color:var(--accent-2);background:var(--gold-soft);text-decoration:none;
+}
 .empty{display:none;color:var(--muted);padding:12px 0}
 
-/* Timeline */
+/* ===== Experience & Education Timeline ===== */
 .timeline{position:relative;padding-left:26px}
 .timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
 .t-item{position:relative;padding:18px 20px;margin-bottom:14px}
-.t-item::before{content:"";position:absolute;left:-25px;top:24px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:3px solid var(--accent)}
-.t-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.t-item::before{
+  content:"";position:absolute;left:-25px;top:24px;width:12px;height:12px;
+  border-radius:50%;background:var(--surface);border:3px solid var(--accent);
+}
+.t-item.current::before{
+  border-color:var(--bu-red);background:var(--bu-red);
+  box-shadow:0 0 0 4px rgba(204,0,0,.16);
+}
+.t-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
 .t-item h3{font-size:1.12rem}
 .t-date{font-size:.82rem;font-weight:600;color:var(--accent-2);white-space:nowrap}
-.t-org{color:var(--muted);font-size:.92rem;margin:2px 0 8px}
-.t-item ul{margin:6px 0 0;padding-left:18px;font-size:.93rem}
-.t-item li{margin:3px 0}
-.pill{display:inline-block;font-size:.78rem;font-weight:600;background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:999px;margin-right:6px}
+.t-org{color:var(--muted);font-size:.91rem;margin:2px 0 8px;font-weight:500}
+.t-item ul{margin:6px 0 0;padding-left:18px;font-size:.92rem}
+.t-item li{margin:4px 0}
+.pill{
+  display:inline-block;font-size:.75rem;font-weight:600;
+  background:var(--accent-soft);color:var(--accent);
+  padding:2px 10px;border-radius:999px;margin-right:6px;
+}
+.pill.gold{background:var(--gold-soft);color:var(--accent-2)}
 
-/* Grids */
+/* ===== Grids, Supervision, Skills & Awards ===== */
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .box{padding:18px 20px}
 .box h3{font-size:1.05rem;margin-bottom:8px}
-.box p{margin:4px 0;font-size:.93rem}
-.kv{display:grid;grid-template-columns:128px 1fr;gap:4px 12px;font-size:.92rem}
-.kv dt{color:var(--muted)}
+.box p{margin:4px 0;font-size:.92rem}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:6px 12px;font-size:.91rem}
+.kv dt{color:var(--muted);font-weight:500}
 .kv dd{margin:0}
+ul.clean,ol.clean{list-style:none;margin:0;padding:0}
+
 .thesis{padding:4px 20px}
-.thesis li{padding:12px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:60px 1fr;gap:10px;font-size:.93rem}
+.thesis li{
+  padding:12px 0;border-bottom:1px solid var(--line);
+  display:grid;grid-template-columns:56px 1fr;gap:10px;font-size:.92rem;
+}
 .thesis li:last-child{border:0}
 .thesis .yr{font-weight:700;color:var(--accent-2)}
-.thesis .st{display:block;color:var(--muted);font-size:.86rem}
-.skills .box{display:grid;grid-template-columns:170px 1fr;gap:12px;align-items:start;border-bottom:1px solid var(--line);padding:14px 20px}
-.skills .box:last-child{border:0}
-.skills .lbl{font-weight:600;font-size:.92rem}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chips span{font-size:.82rem;padding:3px 10px;border-radius:999px;background:var(--chip)}
-.svc li{padding:10px 0 10px 22px;position:relative;border-bottom:1px solid var(--line);font-size:.94rem}
-.svc li:last-child{border:0}
-.svc li::before{content:"";position:absolute;left:4px;top:19px;width:7px;height:7px;border-radius:2px;background:var(--accent-2);transform:rotate(45deg)}
-.ielts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.ielts div{flex:1;min-width:70px;text-align:center;padding:8px;border-radius:10px;background:var(--surface-2)}
-.ielts b{display:block;font-family:"Source Serif 4",serif;font-size:1.3rem;color:var(--accent)}
-.ielts span{font-size:.74rem;color:var(--muted)}
+.thesis .st{display:block;color:var(--muted);font-size:.84rem;margin-top:2px}
 
-footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.85rem}
+.skills .box{
+  display:grid;grid-template-columns:180px 1fr;gap:12px;
+  align-items:center;border-bottom:1px solid var(--line);padding:13px 20px;
+}
+.skills .box:last-child{border:0}
+.skills .lbl{font-weight:600;font-size:.9rem;color:var(--text);display:flex;align-items:center;gap:8px}
+.skills .lbl svg{width:16px;height:16px;color:var(--accent-2);flex:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{
+  font-size:.81rem;font-weight:500;padding:4px 11px;border-radius:999px;
+  background:var(--chip);border:1px solid transparent;transition:all .15s;
+}
+.chips span:hover{border-color:var(--accent-2);background:var(--surface)}
+
+.svc li{
+  padding:9px 0 9px 20px;position:relative;
+  border-bottom:1px solid var(--line);font-size:.92rem;
+}
+.svc li:last-child{border:0}
+.svc li::before{
+  content:"";position:absolute;left:3px;top:17px;width:6px;height:6px;
+  border-radius:1px;background:var(--accent-2);transform:rotate(45deg);
+}
+
+.award-card{
+  padding:18px;display:flex;flex-direction:column;gap:6px;
+  border-top:3px solid var(--accent-2);
+}
+.award-yr{font-size:.76rem;font-weight:700;color:var(--accent-2);text-transform:uppercase;letter-spacing:.05em}
+.award-card h3{font-size:1.02rem}
+.award-card p{font-size:.86rem;color:var(--muted);margin:0}
+
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.85rem}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
-.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--text);color:var(--bg);padding:9px 18px;border-radius:10px;font-size:.86rem;opacity:0;transition:.25s;pointer-events:none;z-index:100}
+.toast{
+  position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--text);color:var(--bg);padding:9px 18px;border-radius:10px;
+  font-size:.86rem;font-weight:500;opacity:0;transition:.25s;pointer-events:none;z-index:100;
+  box-shadow:0 8px 24px rgba(0,0,0,.25);
+}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
-@media (max-width:980px){
-  .layout{grid-template-columns:1fr;gap:28px}
+/* ===== Responsive Breakpoints ===== */
+@media (max-width:1020px){
+  .layout{grid-template-columns:1fr;gap:32px}
   aside.profile{position:static}
-  .profile .card{display:grid;grid-template-columns:auto 1fr;gap:4px 22px;text-align:left;align-items:center}
-  .avatar{width:200px;height:200px;margin:0 auto 4px;grid-row:auto}
-  .profile .card{grid-template-columns:1fr!important;text-align:center!important;justify-items:center}
-  .profile .contact{width:100%;text-align:left}
-  .profile .btns{width:100%;max-width:520px}
-  .contact,.btns{grid-column:1/-1}
-  .contact{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+  .profile .card{max-width:680px;margin:0 auto}
+  .affil-badges{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .contact{display:grid;grid-template-columns:1fr 1fr;gap:2px 18px}
+  .thrust-grid{grid-template-columns:1fr}
+  .grid3{grid-template-columns:1fr}
   .menu-btn{display:grid}
-  .nav ul{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;background:var(--surface);border-bottom:1px solid var(--line);padding:8px 16px;box-shadow:var(--shadow)}
+  .nav ul{
+    display:none;position:absolute;top:62px;left:0;right:0;
+    flex-direction:column;background:#002349;
+    border-bottom:1px solid rgba(255,255,255,.15);padding:10px 18px;
+    box-shadow:var(--shadow);
+  }
   .nav ul.open{display:flex}
   .nav .wrap{position:relative}
   .nav .spacer{margin-left:auto}
@@ -184,15 +467,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 @media (max-width:640px){
   .wrap{padding:0 16px}
   .stats{grid-template-columns:repeat(2,1fr)}
-  .grid2{grid-template-columns:1fr}
-  .profile .card{grid-template-columns:1fr;text-align:center;justify-items:center}
-  .avatar{grid-row:auto;width:200px;height:200px;margin:0 auto 4px}
-  .contact{grid-template-columns:1fr;width:100%}
-  .btns{width:100%}
+  .grid2,.affil-badges,.contact{grid-template-columns:1fr}
   .skills .box{grid-template-columns:1fr;gap:6px}
-  .news li{grid-template-columns:1fr;gap:2px}
+  .news-timeline::before{display:none}
+  .news-timeline li{grid-template-columns:1fr;gap:3px;border-bottom:1px dashed var(--line);padding:10px 0}
+  .news-timeline li:last-child{border:0}
+  .news-timeline time{text-align:left}
+  .news-dot{display:none}
   .pub{grid-template-columns:1fr;gap:4px}
-  .search{max-width:none;margin-left:0}
+  .search{max-width:none;margin-left:0;width:100%}
   .sec-head h2{font-size:1.4rem}
   .kv{grid-template-columns:1fr}
   .kv dt{margin-top:6px}
@@ -204,44 +487,32 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   .card{box-shadow:none}
   body{background:#fff}
 }
-
-/* ===== Navy & gold header (both themes) ===== */
-header.nav{background:#002349;border-bottom:1px solid rgba(255,255,255,.12);backdrop-filter:none}
-header.nav .brand{color:#fff}
-header.nav ul a{color:rgba(255,255,255,.78);border-radius:0;letter-spacing:.06em;text-transform:uppercase;font-size:.74rem;font-weight:600;padding:8px 10px;border-bottom:2px solid transparent}
-header.nav ul a:hover{background:transparent;color:#fff}
-header.nav ul a.active{background:transparent;color:#fff;border-bottom-color:#957c3d}
-header.nav .icon-btn{background:transparent;border-color:rgba(255,255,255,.35);color:#fff}
-@media (max-width:980px){header.nav ul{background:#002349;border-color:rgba(255,255,255,.12)}}
-.btn{border-color:var(--accent);color:var(--accent)}
-.tag.type-c{background:color-mix(in srgb,#957c3d 15%,transparent);color:#7a6430}
-:root[data-theme="dark"] .tag.type-c{color:#d4bc84}
-.news.clean{padding:6px 20px}
-.news.clean li{gap:16px}
-#about > p{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
 </style>
 </head>
 <body>
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#top">Md. Mahmudul Hasan</a>
+    <a class="brand" href="#top">
+      <span class="brand-badge">MH</span>
+      <span>Md. Mahmudul Hasan</span>
+    </a>
     <span class="spacer"></span>
     <ul id="navlinks">
       <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#supervision">Supervision</a></li>
       <li><a href="#service">Service</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#awards">Awards</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle theme">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle color theme" title="Toggle light/dark theme">
+      <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     </button>
-    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open navigation menu">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
   </div>
@@ -252,126 +523,279 @@ header.nav .icon-btn{background:transparent;border-color:rgba(255,255,255,.35);c
   <!-- ============ PROFILE SIDEBAR ============ -->
   <aside class="profile">
     <div class="card">
-      <img class="avatar" src="MMH_CP.png" alt="Portrait of Md. Mahmudul Hasan" width="168" height="168">
+      <div class="avatar-wrap">
+        <img class="avatar" src="MMH_CP.png" alt="Portrait of Md. Mahmudul Hasan" width="176" height="176">
+        <span class="status-dot" title="Active PhD Researcher at Boston University">BU · Systems Eng.</span>
+      </div>
       <h1>Md. Mahmudul Hasan</h1>
-      <p class="role">PhD Student<br>Division of Systems Engineering</p>
-      <p class="affil">Boston University</p>
-      <p class="role" style="margin-top:10px">Assistant Professor (On Leave)<br>Dept. of Electrical &amp; Electronic Engineering</p>
-      <p class="affil">Rajshahi University of Engineering &amp; Technology (RUET)</p>
+
+      <div class="affil-badges">
+        <div class="affil-card">
+          <div class="r-title"><span>Ph.D. Researcher</span><span class="mini-tag">Current</span></div>
+          <div class="r-dept">Division of Systems Engineering</div>
+          <div class="r-org">Boston University, USA</div>
+        </div>
+        <div class="affil-card">
+          <div class="r-title"><span>Assistant Professor</span><span class="mini-tag gold">On Leave</span></div>
+          <div class="r-dept">Dept. of Electrical &amp; Electronic Eng.</div>
+          <div class="r-org">RUET, Bangladesh</div>
+        </div>
+      </div>
+
       <ul class="contact">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><a href="https://share.google/6fGh1uKAbP4NV47Xx" target="_blank" rel="noopener">Boston, MA 02121, USA</a></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><a href="mailto:mmhasan@bu.edu">mmhasan@bu.edu</a></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><a href="mailto:mahmud@eee.ruet.ac.bd">mahmud@eee.ruet.ac.bd</a></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:+16175169248">+1 (617) 516-9248</a></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg><a href="https://eee.ruet.ac.bd/mahmud/" target="_blank" rel="noopener">eee.ruet.ac.bd/mahmud</a></li>
-        <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.8 3.9C5.9 10.9 8.7 9 12 9s6.1 1.9 7.2 4.4L24 9.5z"/></svg><a href="https://scholar.google.com/citations?hl=en&amp;authuser=2&amp;user=PUPQdH4AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
-        <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1a3.8 3.8 0 0 1 3.4-1.9c3.6 0 4.3 2.4 4.3 5.5v6.3zM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg><a href="https://linkedin.com/in/mahmud-eee-ruet" target="_blank" rel="noopener">mahmud-eee-ruet</a></li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <a href="https://share.google/6fGh1uKAbP4NV47Xx" target="_blank" rel="noopener">Boston, MA 02215, USA</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <a href="mailto:mmhasan@bu.edu">mmhasan@bu.edu</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <a href="mailto:mahmud@eee.ruet.ac.bd">mahmud@eee.ruet.ac.bd</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          <a href="https://eee.ruet.ac.bd/mahmud/" target="_blank" rel="noopener">eee.ruet.ac.bd/mahmud</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.8 3.9C5.9 10.9 8.7 9 12 9s6.1 1.9 7.2 4.4L24 9.5z"/></svg>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=PUPQdH4AAAAJ" target="_blank" rel="noopener">Google Scholar Profile</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1a3.8 3.8 0 0 1 3.4-1.9c3.6 0 4.3 2.4 4.3 5.5v6.3zM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+          <a href="https://linkedin.com/in/mahmud-eee-ruet" target="_blank" rel="noopener">LinkedIn · mahmud-eee-ruet</a>
+        </li>
       </ul>
+
       <div class="btns">
         <a class="btn primary" href="CV_MdMahmudulHasan.pdf" target="_blank" rel="noopener">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>CV (PDF)</a>
-        <a class="btn" href="mailto:mmhasan@bu.edu">Email</a>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          CV (PDF)
+        </a>
+        <a class="btn" href="mailto:mmhasan@bu.edu">Email Me</a>
       </div>
     </div>
   </aside>
 
-  <!-- ============ MAIN ============ -->
+  <!-- ============ MAIN CONTENT ============ -->
   <main>
 
+    <!-- ============ ABOUT ============ -->
     <section id="about">
       <div class="sec-head"><h2>About</h2></div>
-      <p class="lead">I am a <strong>PhD student in Systems Engineering at Boston University</strong> and an <strong>Assistant Professor (on leave)</strong> in the Department of Electrical &amp; Electronic Engineering at <strong>Rajshahi University of Engineering &amp; Technology (RUET)</strong>, Bangladesh. My research sits at the intersection of <strong>control theory, optimization, and renewable energy</strong> — developing robust, intelligent controllers that keep converter-dominated microgrids and hybrid renewable power systems stable.</p>
-      <p>I received my M.Sc. (CGPA 3.92/4.00) and B.Sc. (CGPA 3.89/4.00, 2nd in a class of 120) in EEE from RUET. My work appears in venues including <em>International Journal of Electrical Power &amp; Energy Systems</em>, <em>Applied Soft Computing</em>, and <em>IET Renewable Power Generation</em>, and I serve as a reviewer for Elsevier and Hindawi journals.</p>
+      <p class="lead">I am a <strong>Ph.D. student in Systems Engineering at Boston University</strong> and an <strong>Assistant Professor (on leave)</strong> in the Department of Electrical &amp; Electronic Engineering at <strong>Rajshahi University of Engineering &amp; Technology (RUET)</strong>, Bangladesh. My research sits at the intersection of <strong>control theory, mathematical optimization, and power systems</strong>—developing robust, intelligent controllers that keep converter-dominated microgrids and hybrid renewable energy systems dynamically stable.</p>
+      <p>I earned my M.Sc. (CGPA 3.92/4.00) and B.Sc. (CGPA 3.89/4.00, 2nd in a class of 120) in Electrical &amp; Electronic Engineering from RUET. My research has been published in leading venues including the <em>International Journal of Electrical Power &amp; Energy Systems</em>, <em>Applied Soft Computing</em>, <em>Energy Conversion and Management: X</em>, and <em>IET Renewable Power Generation</em>, and I serve as an active peer reviewer for Elsevier and IEEE publications.</p>
 
       <div class="stats">
-        <div class="card stat"><b>8</b><span>Journal articles</span></div>
-        <div class="card stat"><b>11</b><span>Conference papers</span></div>
-        <div class="card stat"><b>11</b><span>Thesis supervised</span></div>
-        <div class="card stat"><b>5+</b><span>Years teaching</span></div>
-      </div>
-
-      <h3 class="sub">Research Interests</h3>
-      <div class="interests">
-        <div class="card interest"><span class="num">1</span><div><strong>Multi-objective metaheuristic optimization</strong> for controller tuning and energy management in renewable-integrated power systems.</div></div>
-        <div class="card interest"><span class="num">2</span><div><strong>Disturbance observer-based control</strong> system design for renewable energy applications.</div></div>
-        <div class="card interest"><span class="num">3</span><div><strong>Virtual inertia emulation</strong> and frequency stabilization techniques for converter-dominated microgrids.</div></div>
+        <div class="card stat"><b>8</b><span>Journal Articles</span></div>
+        <div class="card stat"><b>11</b><span>Conference Papers</span></div>
+        <div class="card stat"><b>11</b><span>Theses Supervised</span></div>
+        <div class="card stat"><b>5+</b><span>Years Faculty Teaching</span></div>
       </div>
 
       <h3 class="sub">Recent Highlights</h3>
-      <ul class="clean card news">
-        <li><time>Aug 2026</time><span>Started Ph.D. in Systems Engineering at <strong>Boston University</strong>; on leave from RUET.</span></li>
-        <li><time>2026</time><span>Paper on <a href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">virtual inertia emulation using a time-series disturbance observer</a> published in <em>Int. J. Electrical Power &amp; Energy Systems</em>.</span></li>
-        <li><time>2025</time><span>Three journal articles published in <em>IET Renewable Power Generation</em>, <em>e-Prime</em>, and <em>Energy Conversion and Management: X</em>.</span></li>
-        <li><time>Dec 2024</time><span>Completed M.Sc. in EEE, RUET (CGPA 3.92/4.00).</span></li>
-        <li><time>Sep 2024</time><span>Served as Publication Secretary, IEEE PEEIACON 2024, RUET.</span></li>
-        <li><time>2024</time><span>Invited talk: <em>“Energy Management and Virtual Inertia Emulation in Microgrids”</em>, IEEE PES Day, BUBT.</span></li>
-        <li><time>Jan 2024</time><span>Promoted to Assistant Professor, Department of EEE, RUET.</span></li>
+      <ul class="card news-timeline">
+        <li>
+          <time>Aug 2026</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge bu">Milestone</span>Started Ph.D. in Systems Engineering at <strong>Boston University</strong>; on academic study leave from RUET.</div>
+        </li>
+        <li>
+          <time>Feb 2026</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge pub">Journal</span>Paper on <a href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">virtual inertia emulation using a time-series disturbance observer</a> published in <em>Int. J. Electrical Power &amp; Energy Systems</em> (Elsevier).</div>
+        </li>
+        <li>
+          <time>2025</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge pub">Journal</span>Three journal articles published in <em>IET Renewable Power Generation</em>, <em>e-Prime</em>, and <em>Energy Conversion and Management: X</em>.</div>
+        </li>
+        <li>
+          <time>Dec 2024</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge">Degree</span>Completed M.Sc. in Electrical &amp; Electronic Engineering at RUET (CGPA 3.92/4.00).</div>
+        </li>
+        <li>
+          <time>Sep 2024</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge">Service</span>Served as Publication Secretary for IEEE PEEIACON 2024 at RUET.</div>
+        </li>
+        <li>
+          <time>2024</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge">Talk</span>Invited speaker: <em>“Energy Management and Virtual Inertia Emulation in Microgrids”</em>, IEEE PES Day, BUBT.</div>
+        </li>
+        <li>
+          <time>Jan 2024</time>
+          <span class="news-dot"></span>
+          <div><span class="n-badge">Faculty</span>Promoted to Assistant Professor, Department of EEE, RUET.</div>
+        </li>
       </ul>
+    </section>
+
+    <!-- ============ VISUAL RESEARCH THRUSTS ============ -->
+    <section id="research">
+      <div class="sec-head">
+        <h2>Core Research Thrusts</h2>
+        <span class="count">Control · Optimization · Microgrids</span>
+      </div>
+      <div class="thrust-grid">
+        <!-- Thrust 1 -->
+        <article class="card thrust-card">
+          <div class="thrust-vis" aria-hidden="true">
+            <!-- SVG: Pareto Front & Controller Tuning -->
+            <svg viewBox="0 0 200 90" fill="none">
+              <line x1="28" y1="12" x2="28" y2="76" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/>
+              <line x1="28" y1="76" x2="180" y2="76" stroke="currentColor" stroke-opacity=".35" stroke-width="1.5"/>
+              <path d="M40 20 Q58 64 162 68" stroke="#957c3d" stroke-width="2.5" fill="none"/>
+              <circle cx="46" cy="28" r="4" fill="#cc0000"/>
+              <circle cx="68" cy="48" r="4" fill="#cc0000"/>
+              <circle cx="102" cy="60" r="4.5" fill="#002349" stroke="#957c3d" stroke-width="2"/>
+              <circle cx="144" cy="66" r="4" fill="#cc0000"/>
+              <circle cx="95" cy="34" r="3" fill="currentColor" fill-opacity=".3"/>
+              <circle cx="122" cy="42" r="3" fill="currentColor" fill-opacity=".3"/>
+              <circle cx="78" cy="26" r="3" fill="currentColor" fill-opacity=".3"/>
+              <text x="108" y="52" font-size="8" fill="currentColor" font-weight="600">Pareto Optimal</text>
+              <text x="34" y="86" font-size="7.5" fill="currentColor" fill-opacity=".65">Objective J₁ (ITAE)</text>
+            </svg>
+          </div>
+          <span class="thrust-num">Thrust 01 · Optimization</span>
+          <h4>Multi-Objective Metaheuristics &amp; Online Control</h4>
+          <p>Designing hybrid bio-inspired and convex optimization frameworks for optimal controller tuning, PID neural networks, and economic dispatch in renewable power networks.</p>
+        </article>
+
+        <!-- Thrust 2 -->
+        <article class="card thrust-card">
+          <div class="thrust-vis" aria-hidden="true">
+            <!-- SVG: Disturbance Observer Block Diagram -->
+            <svg viewBox="0 0 200 90" fill="none">
+              <rect x="22" y="22" width="46" height="24" rx="4" stroke="currentColor" stroke-width="1.5"/>
+              <text x="45" y="37" font-size="8" text-anchor="middle" fill="currentColor" font-weight="600">Controller</text>
+              <rect x="112" y="22" width="52" height="24" rx="4" stroke="#002349" fill="rgba(149,124,61,.15)" stroke-width="1.6"/>
+              <text x="138" y="37" font-size="8" text-anchor="middle" fill="currentColor" font-weight="600">Microgrid</text>
+              <rect x="66" y="56" width="56" height="22" rx="4" stroke="#cc0000" stroke-width="1.5"/>
+              <text x="94" y="70" font-size="8" text-anchor="middle" fill="currentColor" font-weight="600">DOB (d̂)</text>
+              <line x1="68" y1="34" x2="112" y2="34" stroke="currentColor" stroke-width="1.4"/>
+              <line x1="164" y1="34" x2="184" y2="34" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M174 34 V67 H122" stroke="#957c3d" stroke-width="1.4"/>
+              <path d="M66 67 H88 V34" stroke="#cc0000" stroke-width="1.4" stroke-dasharray="2 2"/>
+            </svg>
+          </div>
+          <span class="thrust-num">Thrust 02 · Robust Control</span>
+          <h4>Disturbance Observer-Based Control (DOBC)</h4>
+          <p>Time-series and nonlinear disturbance observers paired with sliding-mode, fractional-order, and ADRC architectures to reject stochastic wind/solar fluctuations and FDI attacks.</p>
+        </article>
+
+        <!-- Thrust 3 -->
+        <article class="card thrust-card">
+          <div class="thrust-vis" aria-hidden="true">
+            <!-- SVG: Frequency Response Stabilization Waveforms -->
+            <svg viewBox="0 0 200 90" fill="none">
+              <line x1="20" y1="42" x2="184" y2="42" stroke="currentColor" stroke-opacity=".3" stroke-dasharray="3 3"/>
+              <!-- Uncontrolled deep frequency nadir -->
+              <path d="M20 42 H45 C58 42, 64 82, 82 78 C102 74, 112 28, 132 48 C148 56, 162 39, 182 42" stroke="#cc0000" stroke-width="1.6" stroke-dasharray="3 2" fill="none"/>
+              <!-- Virtual inertia stabilized response -->
+              <path d="M20 42 H45 C58 42, 65 56, 84 52 C104 48, 118 41, 182 42" stroke="#957c3d" stroke-width="2.5" fill="none"/>
+              <text x="115" y="25" font-size="7.5" fill="#957c3d" font-weight="700">With Virtual Inertia</text>
+              <text x="92" y="84" font-size="7.5" fill="#cc0000" font-weight="600">Uncompensated Nadir</text>
+              <text x="22" y="36" font-size="7.5" fill="currentColor" fill-opacity=".65">Δf (Hz)</text>
+            </svg>
+          </div>
+          <span class="thrust-num">Thrust 03 · Power Systems</span>
+          <h4>Virtual Inertia &amp; Grid-Forming Microgrids</h4>
+          <p>Emulating synthetic inertia via energy storage and grid-forming inverters to arrest rate-of-change-of-frequency (RoCoF) and stabilize low-inertia islanded grids.</p>
+        </article>
+      </div>
     </section>
 
     <!-- ============ PUBLICATIONS ============ -->
     <section id="publications">
-      <div class="sec-head"><h2>Publications</h2><span class="count" id="pubCount"></span></div>
+      <div class="sec-head">
+        <h2>Publications</h2>
+        <span class="count" id="pubCount">7 journal · 7 conference · 1 under review</span>
+      </div>
       <div class="toolbar">
         <button class="filter on" data-f="all">All</button>
-        <button class="filter" data-f="journal">Journal</button>
-        <button class="filter" data-f="conference">Conference</button>
+        <button class="filter" data-f="journal">Journal Articles</button>
+        <button class="filter" data-f="conference">Conference Papers</button>
         <button class="filter" data-f="review">Under Review</button>
-        <input class="search" id="pubSearch" type="search" placeholder="Search title, author, venue…" aria-label="Search publications">
+        <input class="search" id="pubSearch" type="search" placeholder="Search title, co-author, venue, year…" aria-label="Search publications">
       </div>
-      <div id="pubList"></div>
-      <p class="empty" id="pubEmpty">No publications match your search.</p>
-      <p style="font-size:.85rem;color:var(--muted);margin-top:14px"><b style="color:var(--text);text-decoration:underline;text-decoration-color:var(--accent-2);text-underline-offset:3px">Underlined</b> = this author. Click any title to open the paper via its DOI.</p>
+
+      <!-- Pre-rendered static fallback for crawlers; hydrated dynamically by JS -->
+      <div id="pubList">
+        <div class="pub-group">
+          <h3>Selected Journal Articles</h3>
+          <article class="card pub">
+            <span class="idx">[J7]</span>
+            <div>
+              <a class="title" href="https://doi.org/10.1016/j.ijepes.2026.111673" target="_blank" rel="noopener">Virtual inertia emulation in islanded microgrids using a time-series disturbance observer for frequency stabilization</a>
+              <div class="authors"><b>M. M. Hasan</b>, M. S. Rana, T. S. Joyeeta, and F. Tabassum</div>
+              <div class="venue">International Journal of Electrical Power &amp; Energy Systems, vol. 176, p. 111673, 2026</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <p class="empty" id="pubEmpty">No publications match your filter criteria.</p>
+      <p style="font-size:.84rem;color:var(--muted);margin-top:14px">
+        <b style="color:var(--text);text-decoration:underline;text-decoration-color:var(--accent-2);text-underline-offset:3px">Underlined</b> = Md. Mahmudul Hasan. Click any paper title to open via DOI, or use the action buttons to copy formatted IEEE citations or BibTeX entries.
+      </p>
     </section>
 
     <!-- ============ EXPERIENCE ============ -->
     <section id="experience">
-      <div class="sec-head"><h2>Academic Positions</h2></div>
+      <div class="sec-head"><h2>Academic Positions &amp; Grants</h2></div>
       <div class="timeline">
-        <div class="card t-item">
-          <div class="t-top"><h3>Assistant Professor <span class="pill" style="vertical-align:middle">On Leave</span></h3><span class="t-date">Jan 2024 – Present</span></div>
-          <div class="t-org">Department of EEE, Rajshahi University of Engineering &amp; Technology, Rajshahi-6204</div>
+        <div class="card t-item current">
+          <div class="t-top">
+            <h3>Assistant Professor <span class="pill gold" style="vertical-align:middle;margin-left:6px">On Study Leave</span></h3>
+            <span class="t-date">Jan 2024 – Present</span>
+          </div>
+          <div class="t-org">Department of Electrical &amp; Electronic Engineering, Rajshahi University of Engineering &amp; Technology (RUET), Rajshahi-6204</div>
           <ul>
             <li><b>Courses taught:</b> Measurement and Instrumentation; Computational Methods in Engineering; Renewable Energy; Power System Operation and Control</li>
-            <li><b>Undergraduate theses supervised:</b> 5</li>
-            <li><b>Additional role:</b> Member Secretary, OBE-Based Undergraduate Curriculum Preparation Committee</li>
+            <li><b>Undergraduate theses supervised:</b> 5 completed cohorts</li>
+            <li><b>Academic leadership:</b> Member Secretary, OBE-Based Undergraduate Curriculum Preparation Committee</li>
           </ul>
         </div>
         <div class="card t-item">
           <div class="t-top"><h3>Lecturer</h3><span class="t-date">Feb 2021 – Dec 2023</span></div>
-          <div class="t-org">Department of EEE, Rajshahi University of Engineering &amp; Technology, Rajshahi-6204</div>
+          <div class="t-org">Department of Electrical &amp; Electronic Engineering, RUET, Rajshahi-6204</div>
           <ul>
             <li><b>Courses taught:</b> Measurement and Instrumentation; Power Plant Engineering and Economy; Power System II; Power System Operation and Control</li>
-            <li><b>Undergraduate theses supervised:</b> 3</li>
-            <li><b>Additional role:</b> Member, Undergraduate Curriculum Modification Committee</li>
+            <li><b>Undergraduate theses supervised:</b> 3 completed cohorts</li>
+            <li><b>Committee role:</b> Member, Undergraduate Curriculum Modification Committee</li>
           </ul>
         </div>
         <div class="card t-item">
           <div class="t-top"><h3>Lecturer</h3><span class="t-date">Oct 2019 – Jan 2021</span></div>
-          <div class="t-org">Department of EEE, Prime University, Dhaka-1216</div>
+          <div class="t-org">Department of Electrical &amp; Electronic Engineering, Prime University, Dhaka-1216</div>
           <ul>
-            <li><b>Courses taught:</b> Electronics I; Electromagnetic Fields; Digital Electronics and Pulse Techniques; Electrical Machine; Renewable Energy; Power System Operation and Control</li>
+            <li><b>Courses taught:</b> Electronics I; Electromagnetic Fields; Digital Electronics and Pulse Techniques; Electrical Machines; Renewable Energy; Power System Operation and Control</li>
           </ul>
         </div>
       </div>
 
-      <h3 class="sub">Research Grant</h3>
-      <div class="card box">
-        <span class="pill">UGC Funded</span><span class="pill">Project Director</span>
-        <h3 style="margin-top:10px">Adaptive Control of Islanded Microgrid System using Population Extremal Optimization Based PID Neural Network</h3>
-        <dl class="kv" style="margin-top:10px">
-          <dt>Funding body</dt><dd>University Grants Commission (UGC), Bangladesh</dd>
-          <dt>Grant No.</dt><dd>DRE/7/RUET/528(35)/PRO/2021-22/14</dd>
-          <dt>Duration</dt><dd>2021 – 2022</dd>
-          <dt>Amount</dt><dd>BDT 2,50,000</dd>
-        </dl>
-      </div>
-
-      <h3 class="sub">Industrial Training</h3>
-      <div class="card box">
-        <div class="t-top"><h3>Ghorashal Power Station</h3><span class="t-date">08 – 23 May 2018</span></div>
-        <div class="t-org">Bangladesh Power Development Board, Ghorashal, Bangladesh</div>
-        <p>Training on power generation (steam turbine, gas turbine, combined cycle, and gas engine power plants), substations, switchgear, and power plant simulator.</p>
+      <h3 class="sub">Funded Research Grant &amp; Industrial Training</h3>
+      <div class="grid2">
+        <div class="card box">
+          <span class="pill">UGC Funded</span><span class="pill gold">Project Director (PI)</span>
+          <h3 style="margin-top:10px">Adaptive Control of Islanded Microgrid System using Population Extremal Optimization Based PID Neural Network</h3>
+          <dl class="kv" style="margin-top:10px">
+            <dt>Funding Agency</dt><dd>University Grants Commission (UGC), Bangladesh</dd>
+            <dt>Grant Reference</dt><dd>DRE/7/RUET/528(35)/PRO/2021-22/14</dd>
+            <dt>Grant Period</dt><dd>2021 – 2022 · BDT 2,50,000</dd>
+          </dl>
+        </div>
+        <div class="card box">
+          <span class="pill">Power Systems Operations</span>
+          <div class="t-top" style="margin-top:10px"><h3>Ghorashal Power Station</h3><span class="t-date">May 2018</span></div>
+          <div class="t-org">Bangladesh Power Development Board (BPDB), Ghorashal</div>
+          <p>Intensive hands-on industrial training covering steam turbine, gas turbine, combined-cycle, and gas engine generation units, high-voltage substations, switchgear protection, and full-scope power plant simulator operations.</p>
+        </div>
       </div>
     </section>
 
@@ -379,32 +803,32 @@ header.nav .icon-btn{background:transparent;border-color:rgba(255,255,255,.35);c
     <section id="education">
       <div class="sec-head"><h2>Education</h2></div>
       <div class="timeline">
-        <div class="card t-item">
+        <div class="card t-item current">
           <div class="t-top"><h3>Ph.D. in Systems Engineering</h3><span class="t-date">Aug 2026 – Present</span></div>
-          <div class="t-org">Boston University, Boston, MA, USA</div>
+          <div class="t-org">Boston University, College of Engineering, Boston, MA, USA</div>
           <span class="pill">In Progress</span>
           <ul>
-            <li><b>Coursework (continuing):</b> Dynamic System Theory, Optimization Theory II, Probability with Statistical Applications</li>
+            <li><b>Graduate Coursework:</b> Dynamic System Theory, Optimization Theory II, Probability with Statistical Applications</li>
           </ul>
         </div>
         <div class="card t-item">
           <div class="t-top"><h3>M.Sc. in Electrical &amp; Electronic Engineering</h3><span class="t-date">Apr 2020 – Dec 2024</span></div>
-          <div class="t-org">Rajshahi University of Engineering &amp; Technology (RUET)</div>
-          <span class="pill">CGPA 3.92 / 4.00</span>
+          <div class="t-org">Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh</div>
+          <span class="pill gold">CGPA 3.92 / 4.00</span>
           <ul>
             <li><b>Thesis:</b> <em>Development of a Hybrid Metaheuristic Optimization Based Control Platform for Three Phase Microgrid Systems</em></li>
-            <li><b>Supervisor:</b> Prof. Dr. Md Sohel Rana</li>
-            <li><b>Coursework:</b> Engineering Analysis, Modern Control Theory, Multivariable Control Systems, Renewable Energy, Energy Conversion, Digital Circuit Design</li>
+            <li><b>Advisor:</b> Prof. Dr. Md Sohel Rana</li>
+            <li><b>Key Coursework:</b> Engineering Analysis, Modern Control Theory, Multivariable Control Systems, Renewable Energy, Energy Conversion</li>
           </ul>
         </div>
         <div class="card t-item">
           <div class="t-top"><h3>B.Sc. in Electrical &amp; Electronic Engineering</h3><span class="t-date">Jan 2015 – Aug 2019</span></div>
-          <div class="t-org">Rajshahi University of Engineering &amp; Technology (RUET)</div>
-          <span class="pill">CGPA 3.89 / 4.00</span><span class="pill">1st Class, 2nd of 120</span>
+          <div class="t-org">Rajshahi University of Engineering &amp; Technology (RUET), Bangladesh</div>
+          <span class="pill gold">CGPA 3.89 / 4.00</span><span class="pill">Honors · Ranked 2nd of 120</span>
           <ul>
             <li><b>Thesis:</b> <em>Artificial Neural Network Based Sensorless Field Oriented Control of Three Phase Induction Motor</em></li>
-            <li><b>Supervisor:</b> Prof. Dr. S. M. Abdur Razzak</li>
-            <li><b>Major:</b> Power System</li>
+            <li><b>Advisor:</b> Prof. Dr. S. M. Abdur Razzak</li>
+            <li><b>Major Track:</b> Power Systems Engineering</li>
           </ul>
         </div>
       </div>
@@ -412,7 +836,10 @@ header.nav .icon-btn{background:transparent;border-color:rgba(255,255,255,.35);c
 
     <!-- ============ SUPERVISION ============ -->
     <section id="supervision">
-      <div class="sec-head"><h2>Supervised Undergraduate Theses</h2><span class="count">8 theses · Dept. of EEE, RUET</span></div>
+      <div class="sec-head">
+        <h2>Supervised Undergraduate Theses</h2>
+        <span class="count">8 Selected of 11 Supervised Theses · Dept. of EEE, RUET</span>
+      </div>
       <ol class="clean card thesis">
         <li><span class="yr">2025</span><span>A 2-DOF Optimal Active Disturbance Rejection Framework for Load Frequency Control<span class="st">M H M Tawhidul Islam Fahim &amp; Fayez Naqib Efat</span></span></li>
         <li><span class="yr">2025</span><span>Multi-Objective Optimization Based Energy Management System for Grid Connected Microgrid<span class="st">Susmita Paul</span></span></li>
@@ -425,238 +852,5 @@ header.nav .icon-btn{background:transparent;border-color:rgba(255,255,255,.35);c
       </ol>
     </section>
 
-    <!-- ============ SERVICE ============ -->
-    <section id="service">
-      <div class="sec-head"><h2>Service &amp; Talks</h2></div>
-      <div class="grid2">
-        <div class="card box">
-          <h3>Journal Reviewer</h3>
-          <ul class="clean svc">
-            <li><em>Electric Power Systems Research</em>, Elsevier</li>
-            <li><em>ISA Transactions</em>, Elsevier</li>
-            <li><em>International Transactions on Electrical Energy Systems</em>, Hindawi</li>
-            <li>Various IEEE international conferences</li>
-          </ul>
-        </div>
-        <div class="card box">
-          <h3>Invited Talk</h3>
-          <ul class="clean svc">
-            <li><b>“Energy Management and Virtual Inertia Emulation in Microgrids”</b><br><span style="color:var(--muted)">IEEE PES Day, IEEE Student Branch, Bangladesh University of Business and Technology (BUBT), 2024</span></li>
-          </ul>
-        </div>
-      </div>
-      <div class="card box" style="margin-top:14px">
-        <h3>Professional &amp; Conference Service</h3>
-        <ul class="clean svc">
-          <li><b>Publication Secretary</b>, IEEE International Conference on Power, Electrical, Electronics and Industrial Applications (PEEIACON), 12–13 Sep 2024, RUET</li>
-          <li><b>Publication Committee Member</b>, IEEE 3rd International Conference on Electrical &amp; Electronic Engineering (ICEEE), 22–24 Dec 2021, RUET</li>
-          <li><b>Member Secretary</b>, OBE-Based Undergraduate Curriculum Preparation Committee, Dept. of EEE, RUET</li>
-          <li><b>Member</b>, Undergraduate Curriculum Modification Committee, Dept. of EEE, RUET</li>
-          <li><b>Member</b>, Electrical Testing Committee, Dept. of EEE, RUET</li>
-          <li><b>Promotional &amp; Publication Sub-committee Member</b>, 1st Reunion of EEE Alumni Association, RUET</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ============ SKILLS ============ -->
-    <section id="skills">
-      <div class="sec-head"><h2>Technical Skills</h2></div>
-      <div class="card skills">
-        <div class="box"><span class="lbl">Optimization</span><div class="chips"><span>Multi-objective metaheuristics</span><span>Convex optimization</span></div></div>
-        <div class="box"><span class="lbl">Control System Design</span><div class="chips"><span>State feedback</span><span>Observer-based control</span><span>H∞ control</span><span>Adaptive &amp; neuro-adaptive control</span><span>Disturbance observers (linear &amp; nonlinear)</span><span>Sliding mode control</span></div></div>
-        <div class="box"><span class="lbl">Deep Learning</span><div class="chips"><span>ANN</span><span>RNN</span><span>LSTM</span><span>GRU</span></div></div>
-        <div class="box"><span class="lbl">Programming</span><div class="chips"><span>MATLAB</span><span>Python</span><span>PyTorch</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>C</span></div></div>
-        <div class="box"><span class="lbl">Simulation Tools</span><div class="chips"><span>MATLAB/Simulink</span><span>Proteus</span><span>PSpice</span></div></div>
-        <div class="box"><span class="lbl">Hardware</span><div class="chips"><span>Arduino</span><span>Sensor integration</span><span>PCB design</span></div></div>
-        <div class="box"><span class="lbl">Productivity</span><div class="chips"><span>LaTeX</span><span>Microsoft Office</span></div></div>
-        <div class="box"><span class="lbl">Industry Testing (IEC)</span><div class="chips"><span>Power transformers (≤ 800 kVA)</span><span>Solar PV modules</span><span>Insulators</span><span>Lightning arresters</span><span>Transmission line cables</span><span>LED streetlights</span></div></div>
-      </div>
-    </section>
-
-    <!-- ============ AWARDS ============ -->
-    <section id="awards">
-      <div class="sec-head"><h2>Awards &amp; Test Scores</h2></div>
-      <div class="grid2">
-        <div class="card box">
-          <h3>Awards &amp; Scholarships</h3>
-          <ul class="clean svc">
-            <li><b>EEE Association Award</b> for Academic Excellence, 2016</li>
-            <li><b>Education Board Scholarship</b> for Excellence in HSC Examination, 2014</li>
-            <li><b>Education Board Scholarship</b> for Excellence in SSC Examination, 2012</li>
-          </ul>
-        </div>
-        <div class="card box">
-          <h3>IELTS Academic — Overall Band 8.0</h3>
-          <div class="ielts">
-            <div><b>9.0</b><span>Listening</span></div>
-            <div><b>9.0</b><span>Reading</span></div>
-            <div><b>6.5</b><span>Writing</span></div>
-            <div><b>7.0</b><span>Speaking</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ CONTACT / REFERENCES ============ -->
-    <section id="contact">
-      <div class="sec-head"><h2>Contact &amp; References</h2></div>
-      <div class="grid2">
-        <div class="card box">
-          <h3>Get in touch</h3>
-          <p>I welcome inquiries about research collaboration, student supervision, and academic opportunities.</p>
-          <dl class="kv" style="margin-top:12px">
-            <dt>Email (BU)</dt><dd><a href="mailto:mmhasan@bu.edu">mmhasan@bu.edu</a></dd>
-            <dt>Email (RUET)</dt><dd><a href="mailto:mahmud@eee.ruet.ac.bd">mahmud@eee.ruet.ac.bd</a></dd>
-            <dt>Phone</dt><dd><a href="tel:+16175169248">+1 (617) 516-9248</a></dd>
-            <dt>Location</dt><dd><a href="https://share.google/6fGh1uKAbP4NV47Xx" target="_blank" rel="noopener">Boston, MA 02121, USA</a></dd>
-            <dt>Home institution</dt><dd>Dept. of EEE, RUET, Rajshahi-6204, Bangladesh</dd>
-          </dl>
-        </div>
-        <div class="card box">
-          <h3>References</h3>
-          <p><b>Prof. Dr. S. M. Abdur Razzak</b><br>Professor, Dept. of EEE &amp; Vice-Chancellor, RUET<br><a href="mailto:sma.razzak@eee.ruet.ac.bd">sma.razzak@eee.ruet.ac.bd</a><br><span style="color:var(--muted)">Undergraduate supervisor</span></p>
-          <p style="margin-top:12px"><b>Prof. Dr. Md Sohel Rana</b><br>Professor, Dept. of EEE, RUET<br><a href="mailto:sohel@eee.ruet.ac.bd">sohel@eee.ruet.ac.bd</a><br><span style="color:var(--muted)">Postgraduate supervisor</span></p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-</div>
-
-<footer>
-  <div class="wrap">
-    <span>© <span id="yr"></span> Md. Mahmudul Hasan · Boston University &amp; RUET</span>
-    <span>Last updated: October 2026</span>
-  </div>
-</footer>
-<div class="toast" id="toast">Citation copied</div>
-
-<script>
-const ME = /M\. M\. Hasan/;
-const pubs = [
-  // ---------- Journal articles ----------
-  {t:"journal", y:2026, title:"Virtual inertia emulation in islanded microgrids using a time-series disturbance observer for frequency stabilization",
-   a:"M. M. Hasan, M. S. Rana, T. S. Joyeeta, and F. Tabassum",
-   v:"International Journal of Electrical Power & Energy Systems", d:"vol. 176, p. 111673, 2026", pub:"Elsevier", doi:"10.1016/j.ijepes.2026.111673"},
-  {t:"journal", y:2025, title:"Disturbance observer-aided SSA-TID control for frequency stabilization in hybrid renewable power systems",
-   a:"R. Hasan, M. M. Hasan, M. S. Rana, F. Tabassum, and M. N. B. Reza",
-   v:"IET Renewable Power Generation", d:"vol. 19, no. 1, 2025", pub:"IET / Wiley", doi:"10.1049/rpg2.70137"},
-  {t:"journal", y:2025, title:"Optimal defense against security threat on stability of grid-integrated synchronous generator during FDI attack",
-   a:"F. Tabassum, M. Rana, T. S. Joyeeta, and M. M. Hasan",
-   v:"e-Prime - Advances in Electrical Engineering, Electronics and Energy", d:"vol. 13, p. 101097, 2025", pub:"Elsevier", doi:"10.1016/j.prime.2025.101097"},
-  {t:"journal", y:2025, title:"An asymmetric fuzzy-based self-tuned PSO-optimized MPPT controller for grid-connected solar photovoltaic system",
-   a:"M. N.-U.-Rahman, M. M. Hasan, A. M. Raka, M. F. Rahman, M. M. Rana, A. A. Mansur, and M. A. Razzak",
-   v:"Energy Conversion and Management: X", d:"vol. 26, p. 100902, 2025", pub:"Elsevier", doi:"10.1016/j.ecmx.2025.100902"},
-  {t:"journal", y:2023, title:"Optimizing the initial weights of a PID neural network controller for voltage stabilization of microgrids using a PEO-GA algorithm",
-   a:"M. M. Hasan, M. S. Rana, F. Tabassum, H. R. Pota, and M. H. K. Roni",
-   v:"Applied Soft Computing", d:"vol. 147, p. 110771, 2023", pub:"Elsevier", doi:"10.1016/j.asoc.2023.110771"},
-  {t:"journal", y:2022, title:"Recent trends in bio-inspired meta-heuristic optimization techniques in control applications for electrical systems: A review",
-   a:"M. H. K. Roni, M. S. Rana, H. R. Pota, M. M. Hasan, and M. S. Hussain",
-   v:"International Journal of Dynamics and Control", d:"vol. 10, no. 3, pp. 999–1011, Jan. 2022", pub:"Springer", doi:"10.1007/s40435-021-00892-3"},
-  {t:"journal", y:2021, title:"Performance improvement of DFIG-based wind farms using NARMA-L2 controlled bridge-type flux coupling non-superconducting fault current limiter",
-   a:"M. R. Islam, J. Hasan, M. M. Hasan, M. N. Huda, M. A. H. Sadi, and A. AbuHussein",
-   v:"IET Generation, Transmission and Distribution", d:"vol. 14, no. 26, pp. 6580–6593, 2021", pub:"IET", doi:"10.1049/iet-gtd.2019.1917"},
-  // ---------- Under review ----------
-  {t:"review", y:2025, title:"Multivariable power control of grid-forming inverters using a PID neural network",
-   a:"M. M. Hasan, M. M. Hasan, M. S. Rana, F. Tabassum, and T. S. Joyeeta",
-   v:"IET Renewable Power Generation", d:"manuscript under review, 2025", pub:"", doi:""},
-  // ---------- Conference papers ----------
-  {t:"conference", y:2025, title:"Voltage control of grid-forming inverter in islanded microgrids using PSO-optimized sliding mode controller",
-   a:"M. N. M. Rahi, M. M. Hasan, M. Y.-Y. U. Haque, A. I. Abeg, and T. S. Turna",
-   v:"Proc. Int. Conf. Electrical, Computer & Communication Engineering (ECCE)", d:"2025, pp. 1–6", pub:"IEEE", doi:"10.1109/ECCE64574.2025.11013018"},
-  {t:"conference", y:2024, title:"Salp swarm algorithm based integral LQG control of two area nonlinear power system with renewable energy penetration",
-   a:"M. A. Hossain, M. M. Hasan, F. Tabassum, and M. S. Rana",
-   v:"Proc. Int. Conf. Computer and Information Technology (ICCIT)", d:"2024, pp. 657–662", pub:"IEEE", doi:"10.1109/ICCIT64611.2024.11022531"},
-  {t:"conference", y:2024, title:"Optimal fractional order control of virtual inertia emulator for a microgrid with high renewable energy penetration",
-   a:"M. M. Hasan, M. S. Rahman, M. S. Rana, and F. Tabassum",
-   v:"Proc. Int. Conf. Developments in Renewable Energy Technology (ICDRET)", d:"2024, pp. 1–6", pub:"IEEE", doi:"10.1109/ICDRET60388.2024.10504017"},
-  {t:"conference", y:2022, title:"Performance augmentation of an arc suppression device using particle swarm optimization based proportional resonant controller",
-   a:"M. A. Rafi, M. M. Hasan, M. Y.-Y. U. Haque, Z. Ferdous, M. S. Rana, and M. F. Hossain",
-   v:"Proc. Int. Conf. Electrical and Computer Engineering (ICECE)", d:"2022, pp. 445–448", pub:"IEEE", doi:"10.1109/ICECE57408.2022.10089057"},
-  {t:"conference", y:2021, title:"Population extremal optimization based 2-DOF control strategy for field oriented control of induction motor",
-   a:"M. M. Hasan, M. S. Hussain, M. S. Rana, and M. H. K. Roni",
-   v:"Proc. Int. Conf. Electrical and Electronic Engineering (ICEEE)", d:"2021, pp. 117–120", pub:"IEEE", doi:"10.1109/ICEEE54059.2021.9718799"},
-  {t:"conference", y:2021, title:"Modified population extremal optimization based PID neural network for islanded microgrid system",
-   a:"M. M. Hasan and M. S. Rana",
-   v:"Proc. IEEE Int. Conf. Computing, Power and Communication Technologies (GUCON)", d:"2021, pp. 1–6", pub:"IEEE", doi:"10.1109/GUCON50781.2021.9573922"},
-  {t:"conference", y:2019, title:"Artificial neural network based speed estimator for sensorless field oriented control of three phase induction motor",
-   a:"M. M. Hasan",
-   v:"Proc. Int. Conf. Electrical, Computer & Telecommunication Engineering (ICECTE)", d:"2019, pp. 57–60", pub:"IEEE", doi:"10.1109/ICECTE48615.2019.9303559"}
-];
-
-const groups = [["journal","Selected Journal Articles","J"],["review","Journal Articles Under Review","R"],["conference","Selected Conference Papers","C"]];
-const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-const boldMe = a => esc(a).replace(/M\. M\. Hasan/,"<b>M. M. Hasan</b>");
-let filter = "all", query = "";
-
-function cite(p){ return `${p.a}, “${p.title},” ${p.v}, ${p.d}.` + (p.doi?` doi: ${p.doi}.`:""); }
-
-function render(){
-  const list = document.getElementById("pubList"); let html = "", shown = 0;
-  for (const [key,label,prefix] of groups){
-    if (filter!=="all" && filter!==key) continue;
-    const items = pubs.filter(p=>p.t===key);
-    const vis = items.map((p,i)=>({p,i})).filter(({p})=>!query || (p.title+" "+p.a+" "+p.v+" "+p.y).toLowerCase().includes(query));
-    if (!vis.length) continue;
-    html += `<div class="pub-group"><h3>${label} (${vis.length})</h3>`;
-    for (const {p,i} of vis){
-      shown++;
-      const n = items.length - i;
-      const title = p.doi ? `<a class="title" href="https://doi.org/${p.doi}" target="_blank" rel="noopener">${esc(p.title)}</a>` : `<span class="title">${esc(p.title)}</span>`;
-      const typeTag = key==="conference" ? `<span class="tag type-c">Conference</span>` : key==="journal" ? `<span class="tag type-j">Journal</span>` : `<span class="tag">Under Review</span>`;
-      html += `<article class="card pub"><span class="idx">[${prefix}${n}]</span><div>
-        ${title}
-        <div class="authors">${boldMe(p.a)}</div>
-        <div class="venue">${esc(p.v)}<span style="font-style:normal">, ${esc(p.d)}</span></div>
-        <div class="tags">${typeTag}<span class="tag">${p.y}</span>${p.pub?`<span class="tag">${esc(p.pub)}</span>`:""}
-        ${p.doi?`<a class="tag link" href="https://doi.org/${p.doi}" target="_blank" rel="noopener">DOI: ${p.doi}</a>`:""}
-        <button class="tag cite" data-c="${esc(cite(p)).replace(/"/g,"&quot;")}">Copy citation</button></div>
-      </div></article>`;
-    }
-    html += `</div>`;
-  }
-  list.innerHTML = html;
-  document.getElementById("pubEmpty").style.display = shown ? "none" : "block";
-  document.getElementById("pubCount").textContent = `${pubs.filter(p=>p.t==="journal").length} journal · ${pubs.filter(p=>p.t==="conference").length} conference · ${pubs.filter(p=>p.t==="review").length} under review`;
-}
-render();
-
-document.querySelectorAll(".filter").forEach(b=>b.addEventListener("click",()=>{
-  document.querySelectorAll(".filter").forEach(x=>x.classList.remove("on")); b.classList.add("on"); filter=b.dataset.f; render();
-}));
-document.getElementById("pubSearch").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase(); render();});
-
-const toast = document.getElementById("toast");
-document.getElementById("pubList").addEventListener("click",e=>{
-  const b = e.target.closest(".cite"); if(!b) return;
-  const txt = b.dataset.c;
-  const done = ()=>{toast.classList.add("show"); setTimeout(()=>toast.classList.remove("show"),1600);};
-  if (navigator.clipboard) navigator.clipboard.writeText(txt).then(done).catch(()=>{});
-  else { const t=document.createElement("textarea"); t.value=txt; document.body.appendChild(t); t.select(); try{document.execCommand("copy");done();}catch(_){} t.remove(); }
-});
-
-// Theme toggle
-const root = document.documentElement;
-try { const s = localStorage.getItem("theme"); if (s) root.dataset.theme = s; } catch(_){}
-document.getElementById("themeBtn").addEventListener("click",()=>{
-  const dark = root.dataset.theme ? root.dataset.theme==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-  root.dataset.theme = dark ? "light" : "dark";
-  try { localStorage.setItem("theme", root.dataset.theme); } catch(_){}
-});
-
-// Mobile menu
-const nav = document.getElementById("navlinks");
-document.getElementById("menuBtn").addEventListener("click",()=>nav.classList.toggle("open"));
-nav.addEventListener("click",e=>{ if(e.target.tagName==="A") nav.classList.remove("open"); });
-
-// Active section highlight
-const links = [...nav.querySelectorAll("a")];
-const obs = new IntersectionObserver(es=>{
-  es.forEach(en=>{ if(en.isIntersecting){ links.forEach(l=>l.classList.toggle("active", l.getAttribute("href")==="#"+en.target.id)); } });
-},{rootMargin:"-40% 0px -55% 0px"});
-document.querySelectorAll("main section").forEach(s=>obs.observe(s));
-
-document.getElementById("yr").textContent = new Date().getFullYear();
-</script>
-</body>
-</html>
+    <!-- ============ SERVICE & TALKS ============ -->
+    <section
